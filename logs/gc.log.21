@@ -1,0 +1,750 @@
+[2022-09-06T09:26:42.880+0000][68][gc,init] CardTable entry size: 512
+[2022-09-06T09:26:42.880+0000][68][gc     ] Using G1
+[2022-09-06T09:26:43.525+0000][68][gc,init] Version: 18.0.2+9-61 (release)
+[2022-09-06T09:26:43.525+0000][68][gc,init] CPUs: 8 total, 8 available
+[2022-09-06T09:26:43.525+0000][68][gc,init] Memory: 12521M
+[2022-09-06T09:26:43.525+0000][68][gc,init] Large Page Support: Disabled
+[2022-09-06T09:26:43.525+0000][68][gc,init] NUMA Support: Disabled
+[2022-09-06T09:26:43.525+0000][68][gc,init] Compressed Oops: Enabled (Zero based)
+[2022-09-06T09:26:43.525+0000][68][gc,init] Heap Region Size: 4M
+[2022-09-06T09:26:43.525+0000][68][gc,init] Heap Min Capacity: 6260M
+[2022-09-06T09:26:43.525+0000][68][gc,init] Heap Initial Capacity: 6260M
+[2022-09-06T09:26:43.525+0000][68][gc,init] Heap Max Capacity: 6260M
+[2022-09-06T09:26:43.525+0000][68][gc,init] Pre-touch: Enabled
+[2022-09-06T09:26:43.525+0000][68][gc,init] Parallel Workers: 8
+[2022-09-06T09:26:43.525+0000][68][gc,init] Concurrent Workers: 2
+[2022-09-06T09:26:43.525+0000][68][gc,init] Concurrent Refinement Workers: 8
+[2022-09-06T09:26:43.525+0000][68][gc,init] Periodic GC: Disabled
+[2022-09-06T09:26:43.525+0000][68][gc,metaspace] CDS archive(s) mapped at: [0x0000000800000000-0x0000000800bae000-0x0000000800bae000), size 12247040, SharedBaseAddress: 0x0000000800000000, ArchiveRelocationMode: 0.
+[2022-09-06T09:26:43.525+0000][68][gc,metaspace] Compressed class space mapped at: 0x0000000800c00000-0x0000000840c00000, reserved size: 1073741824
+[2022-09-06T09:26:43.525+0000][68][gc,metaspace] Narrow klass base: 0x0000000800000000, Narrow klass shift: 0, Narrow klass range: 0x100000000
+[2022-09-06T09:26:43.723+0000][68][safepoint   ] Safepoint "ICBufferFull", Time since last: 192466090 ns, Reaching safepoint: 158494 ns, At safepoint: 1564 ns, Total: 160058 ns
+[2022-09-06T09:26:44.059+0000][68][safepoint   ] Safepoint "ICBufferFull", Time since last: 336067999 ns, Reaching safepoint: 145061 ns, At safepoint: 40170 ns, Total: 185231 ns
+[2022-09-06T09:26:44.354+0000][68][safepoint   ] Safepoint "ICBufferFull", Time since last: 294560887 ns, Reaching safepoint: 196214 ns, At safepoint: 37051 ns, Total: 233265 ns
+[2022-09-06T09:26:44.568+0000][68][safepoint   ] Safepoint "ICBufferFull", Time since last: 213557644 ns, Reaching safepoint: 225357 ns, At safepoint: 37441 ns, Total: 262798 ns
+[2022-09-06T09:26:44.919+0000][68][safepoint   ] Safepoint "ICBufferFull", Time since last: 351033741 ns, Reaching safepoint: 254736 ns, At safepoint: 26778 ns, Total: 281514 ns
+[2022-09-06T09:26:45.215+0000][68][safepoint   ] Safepoint "ICBufferFull", Time since last: 295427951 ns, Reaching safepoint: 171483 ns, At safepoint: 19728 ns, Total: 191211 ns
+[2022-09-06T09:26:45.381+0000][68][gc,start    ] GC(0) Pause Young (Concurrent Start) (Metadata GC Threshold)
+[2022-09-06T09:26:45.381+0000][68][gc,task     ] GC(0) Using 8 workers of 8 for evacuation
+[2022-09-06T09:26:45.381+0000][68][gc,age      ] GC(0) Desired survivor size 20971520 bytes, new threshold 15 (max threshold 15)
+[2022-09-06T09:26:45.388+0000][68][gc,phases   ] GC(0)   Pre Evacuate Collection Set: 0.4ms
+[2022-09-06T09:26:45.388+0000][68][gc,phases   ] GC(0)   Merge Heap Roots: 0.2ms
+[2022-09-06T09:26:45.388+0000][68][gc,phases   ] GC(0)   Evacuate Collection Set: 4.8ms
+[2022-09-06T09:26:45.388+0000][68][gc,phases   ] GC(0)   Post Evacuate Collection Set: 1.4ms
+[2022-09-06T09:26:45.388+0000][68][gc,phases   ] GC(0)   Other: 0.1ms
+[2022-09-06T09:26:45.388+0000][68][gc,age      ] GC(0) Age table with threshold 15 (max threshold 15)
+[2022-09-06T09:26:45.388+0000][68][gc,age      ] GC(0) - age   1:   11635384 bytes,   11635384 total
+[2022-09-06T09:26:45.388+0000][68][gc,heap     ] GC(0) Eden regions: 60->0(75)
+[2022-09-06T09:26:45.388+0000][68][gc,heap     ] GC(0) Survivor regions: 0->3(10)
+[2022-09-06T09:26:45.388+0000][68][gc,heap     ] GC(0) Old regions: 0->0
+[2022-09-06T09:26:45.388+0000][68][gc,heap     ] GC(0) Archive regions: 2->2
+[2022-09-06T09:26:45.388+0000][68][gc,heap     ] GC(0) Humongous regions: 0->0
+[2022-09-06T09:26:45.388+0000][68][gc,metaspace] GC(0) Metaspace: 21064K(21504K)->21064K(21504K) NonClass: 18720K(18944K)->18720K(18944K) Class: 2344K(2560K)->2344K(2560K)
+[2022-09-06T09:26:45.388+0000][68][gc          ] GC(0) Pause Young (Concurrent Start) (Metadata GC Threshold) 241M->15M(6260M) 7.054ms
+[2022-09-06T09:26:45.388+0000][68][gc,cpu      ] GC(0) User=0.05s Sys=0.00s Real=0.01s
+[2022-09-06T09:26:45.388+0000][68][gc          ] GC(1) Concurrent Mark Cycle
+[2022-09-06T09:26:45.389+0000][68][gc,marking  ] GC(1) Concurrent Clear Claimed Marks
+[2022-09-06T09:26:45.389+0000][68][gc,marking  ] GC(1) Concurrent Clear Claimed Marks 0.031ms
+[2022-09-06T09:26:45.389+0000][68][gc,marking  ] GC(1) Concurrent Scan Root Regions
+[2022-09-06T09:26:45.389+0000][68][safepoint   ] Safepoint "CollectForMetadataAllocation", Time since last: 166264049 ns, Reaching safepoint: 303584 ns, At safepoint: 7195338 ns, Total: 7498922 ns
+[2022-09-06T09:26:45.392+0000][68][gc,marking  ] GC(1) Concurrent Scan Root Regions 3.054ms
+[2022-09-06T09:26:45.392+0000][68][gc,marking  ] GC(1) Concurrent Mark
+[2022-09-06T09:26:45.392+0000][68][gc,marking  ] GC(1) Concurrent Mark From Roots
+[2022-09-06T09:26:45.392+0000][68][gc,task     ] GC(1) Using 2 workers of 2 for marking
+[2022-09-06T09:26:45.393+0000][68][gc,marking  ] GC(1) Concurrent Mark From Roots 1.317ms
+[2022-09-06T09:26:45.393+0000][68][gc,marking  ] GC(1) Concurrent Preclean
+[2022-09-06T09:26:45.393+0000][68][gc,marking  ] GC(1) Concurrent Preclean 0.008ms
+[2022-09-06T09:26:45.393+0000][68][gc,start    ] GC(1) Pause Remark
+[2022-09-06T09:26:45.395+0000][68][gc          ] GC(1) Pause Remark 18M->18M(6260M) 2.012ms
+[2022-09-06T09:26:45.395+0000][68][gc,cpu      ] GC(1) User=0.01s Sys=0.00s Real=0.01s
+[2022-09-06T09:26:45.395+0000][68][safepoint   ] Safepoint "G1Concurrent", Time since last: 4485852 ns, Reaching safepoint: 202669 ns, At safepoint: 2117569 ns, Total: 2320238 ns
+[2022-09-06T09:26:45.395+0000][68][gc,marking  ] GC(1) Concurrent Mark 3.782ms
+[2022-09-06T09:26:45.395+0000][68][gc,marking  ] GC(1) Concurrent Rebuild Remembered Sets
+[2022-09-06T09:26:45.395+0000][68][gc,marking  ] GC(1) Concurrent Rebuild Remembered Sets 0.006ms
+[2022-09-06T09:26:45.396+0000][68][gc,start    ] GC(1) Pause Cleanup
+[2022-09-06T09:26:45.396+0000][68][gc          ] GC(1) Pause Cleanup 18M->18M(6260M) 0.014ms
+[2022-09-06T09:26:45.396+0000][68][gc,cpu      ] GC(1) User=0.00s Sys=0.00s Real=0.00s
+[2022-09-06T09:26:45.396+0000][68][safepoint   ] Safepoint "G1Concurrent", Time since last: 99052 ns, Reaching safepoint: 187177 ns, At safepoint: 76650 ns, Total: 263827 ns
+[2022-09-06T09:26:45.396+0000][68][gc,marking  ] GC(1) Concurrent Cleanup for Next Mark
+[2022-09-06T09:26:45.404+0000][68][gc,marking  ] GC(1) Concurrent Cleanup for Next Mark 8.303ms
+[2022-09-06T09:26:45.404+0000][68][gc          ] GC(1) Concurrent Mark Cycle 15.655ms
+[2022-09-06T09:26:45.757+0000][68][safepoint   ] Safepoint "ICBufferFull", Time since last: 361330227 ns, Reaching safepoint: 204079 ns, At safepoint: 16944 ns, Total: 221023 ns
+[2022-09-06T09:26:46.063+0000][68][gc,start    ] GC(2) Pause Young (Normal) (G1 Evacuation Pause)
+[2022-09-06T09:26:46.063+0000][68][gc,task     ] GC(2) Using 8 workers of 8 for evacuation
+[2022-09-06T09:26:46.063+0000][68][gc,age      ] GC(2) Desired survivor size 20971520 bytes, new threshold 15 (max threshold 15)
+[2022-09-06T09:26:46.070+0000][68][gc,phases   ] GC(2)   Pre Evacuate Collection Set: 0.2ms
+[2022-09-06T09:26:46.070+0000][68][gc,phases   ] GC(2)   Merge Heap Roots: 0.1ms
+[2022-09-06T09:26:46.070+0000][68][gc,phases   ] GC(2)   Evacuate Collection Set: 5.5ms
+[2022-09-06T09:26:46.070+0000][68][gc,phases   ] GC(2)   Post Evacuate Collection Set: 1.5ms
+[2022-09-06T09:26:46.070+0000][68][gc,phases   ] GC(2)   Other: 0.1ms
+[2022-09-06T09:26:46.070+0000][68][gc,age      ] GC(2) Age table with threshold 15 (max threshold 15)
+[2022-09-06T09:26:46.070+0000][68][gc,age      ] GC(2) - age   1:    7177280 bytes,    7177280 total
+[2022-09-06T09:26:46.070+0000][68][gc,age      ] GC(2) - age   2:   10854008 bytes,   18031288 total
+[2022-09-06T09:26:46.070+0000][68][gc,heap     ] GC(2) Eden regions: 75->0(73)
+[2022-09-06T09:26:46.070+0000][68][gc,heap     ] GC(2) Survivor regions: 3->5(10)
+[2022-09-06T09:26:46.070+0000][68][gc,heap     ] GC(2) Old regions: 0->0
+[2022-09-06T09:26:46.070+0000][68][gc,heap     ] GC(2) Archive regions: 2->2
+[2022-09-06T09:26:46.070+0000][68][gc,heap     ] GC(2) Humongous regions: 0->0
+[2022-09-06T09:26:46.070+0000][68][gc,metaspace] GC(2) Metaspace: 24823K(25408K)->24823K(25408K) NonClass: 21942K(22272K)->21942K(22272K) Class: 2880K(3136K)->2880K(3136K)
+[2022-09-06T09:26:46.070+0000][68][gc          ] GC(2) Pause Young (Normal) (G1 Evacuation Pause) 315M->22M(6260M) 7.433ms
+[2022-09-06T09:26:46.070+0000][68][gc,cpu      ] GC(2) User=0.05s Sys=0.00s Real=0.01s
+[2022-09-06T09:26:46.070+0000][68][safepoint   ] Safepoint "G1CollectForAllocation", Time since last: 305375781 ns, Reaching safepoint: 220855 ns, At safepoint: 7477297 ns, Total: 7698152 ns
+[2022-09-06T09:26:46.363+0000][68][safepoint   ] Safepoint "ICBufferFull", Time since last: 292758404 ns, Reaching safepoint: 282239 ns, At safepoint: 22374 ns, Total: 304613 ns
+[2022-09-06T09:26:46.709+0000][68][gc,start    ] GC(3) Pause Young (Normal) (G1 Evacuation Pause)
+[2022-09-06T09:26:46.709+0000][68][gc,task     ] GC(3) Using 8 workers of 8 for evacuation
+[2022-09-06T09:26:46.709+0000][68][gc,age      ] GC(3) Desired survivor size 20971520 bytes, new threshold 15 (max threshold 15)
+[2022-09-06T09:26:46.717+0000][68][gc,phases   ] GC(3)   Pre Evacuate Collection Set: 0.2ms
+[2022-09-06T09:26:46.717+0000][68][gc,phases   ] GC(3)   Merge Heap Roots: 0.1ms
+[2022-09-06T09:26:46.717+0000][68][gc,phases   ] GC(3)   Evacuate Collection Set: 6.6ms
+[2022-09-06T09:26:46.717+0000][68][gc,phases   ] GC(3)   Post Evacuate Collection Set: 1.5ms
+[2022-09-06T09:26:46.717+0000][68][gc,phases   ] GC(3)   Other: 0.1ms
+[2022-09-06T09:26:46.717+0000][68][gc,age      ] GC(3) Age table with threshold 15 (max threshold 15)
+[2022-09-06T09:26:46.717+0000][68][gc,age      ] GC(3) - age   1:    4567568 bytes,    4567568 total
+[2022-09-06T09:26:46.717+0000][68][gc,age      ] GC(3) - age   2:    6651776 bytes,   11219344 total
+[2022-09-06T09:26:46.717+0000][68][gc,age      ] GC(3) - age   3:   10818952 bytes,   22038296 total
+[2022-09-06T09:26:46.717+0000][68][gc,heap     ] GC(3) Eden regions: 73->0(82)
+[2022-09-06T09:26:46.717+0000][68][gc,heap     ] GC(3) Survivor regions: 5->6(10)
+[2022-09-06T09:26:46.717+0000][68][gc,heap     ] GC(3) Old regions: 0->0
+[2022-09-06T09:26:46.717+0000][68][gc,heap     ] GC(3) Archive regions: 2->2
+[2022-09-06T09:26:46.717+0000][68][gc,heap     ] GC(3) Humongous regions: 0->0
+[2022-09-06T09:26:46.717+0000][68][gc,metaspace] GC(3) Metaspace: 31097K(31808K)->31097K(31808K) NonClass: 27507K(27904K)->27507K(27904K) Class: 3590K(3904K)->3590K(3904K)
+[2022-09-06T09:26:46.717+0000][68][gc          ] GC(3) Pause Young (Normal) (G1 Evacuation Pause) 314M->26M(6260M) 8.718ms
+[2022-09-06T09:26:46.717+0000][68][gc,cpu      ] GC(3) User=0.06s Sys=0.00s Real=0.01s
+[2022-09-06T09:26:46.717+0000][68][safepoint   ] Safepoint "G1CollectForAllocation", Time since last: 344951313 ns, Reaching safepoint: 136971 ns, At safepoint: 8781269 ns, Total: 8918240 ns
+[2022-09-06T09:26:47.232+0000][68][gc,start    ] GC(4) Pause Young (Normal) (G1 Evacuation Pause)
+[2022-09-06T09:26:47.232+0000][68][gc,task     ] GC(4) Using 8 workers of 8 for evacuation
+[2022-09-06T09:26:47.232+0000][68][gc,age      ] GC(4) Desired survivor size 23068672 bytes, new threshold 15 (max threshold 15)
+[2022-09-06T09:26:47.243+0000][68][gc,phases   ] GC(4)   Pre Evacuate Collection Set: 0.3ms
+[2022-09-06T09:26:47.243+0000][68][gc,phases   ] GC(4)   Merge Heap Roots: 0.1ms
+[2022-09-06T09:26:47.243+0000][68][gc,phases   ] GC(4)   Evacuate Collection Set: 8.2ms
+[2022-09-06T09:26:47.243+0000][68][gc,phases   ] GC(4)   Post Evacuate Collection Set: 1.7ms
+[2022-09-06T09:26:47.243+0000][68][gc,phases   ] GC(4)   Other: 0.1ms
+[2022-09-06T09:26:47.243+0000][68][gc,age      ] GC(4) Age table with threshold 15 (max threshold 15)
+[2022-09-06T09:26:47.243+0000][68][gc,age      ] GC(4) - age   1:    6536608 bytes,    6536608 total
+[2022-09-06T09:26:47.243+0000][68][gc,age      ] GC(4) - age   2:    3922656 bytes,   10459264 total
+[2022-09-06T09:26:47.243+0000][68][gc,age      ] GC(4) - age   3:    6648736 bytes,   17108000 total
+[2022-09-06T09:26:47.243+0000][68][gc,age      ] GC(4) - age   4:   10812528 bytes,   27920528 total
+[2022-09-06T09:26:47.243+0000][68][gc,heap     ] GC(4) Eden regions: 82->0(931)
+[2022-09-06T09:26:47.243+0000][68][gc,heap     ] GC(4) Survivor regions: 6->8(11)
+[2022-09-06T09:26:47.243+0000][68][gc,heap     ] GC(4) Old regions: 0->0
+[2022-09-06T09:26:47.243+0000][68][gc,heap     ] GC(4) Archive regions: 2->2
+[2022-09-06T09:26:47.243+0000][68][gc,heap     ] GC(4) Humongous regions: 0->0
+[2022-09-06T09:26:47.243+0000][68][gc,metaspace] GC(4) Metaspace: 33509K(34368K)->33509K(34368K) NonClass: 29590K(30080K)->29590K(30080K) Class: 3918K(4288K)->3918K(4288K)
+[2022-09-06T09:26:47.243+0000][68][gc          ] GC(4) Pause Young (Normal) (G1 Evacuation Pause) 354M->32M(6260M) 10.598ms
+[2022-09-06T09:26:47.243+0000][68][gc,cpu      ] GC(4) User=0.07s Sys=0.00s Real=0.01s
+[2022-09-06T09:26:47.243+0000][68][safepoint   ] Safepoint "G1CollectForAllocation", Time since last: 514782508 ns, Reaching safepoint: 292284 ns, At safepoint: 10660606 ns, Total: 10952890 ns
+[2022-09-06T09:26:47.407+0000][68][gc,start    ] GC(5) Pause Young (Concurrent Start) (Metadata GC Threshold)
+[2022-09-06T09:26:47.407+0000][68][gc,task     ] GC(5) Using 8 workers of 8 for evacuation
+[2022-09-06T09:26:47.407+0000][68][gc,age      ] GC(5) Desired survivor size 247463936 bytes, new threshold 15 (max threshold 15)
+[2022-09-06T09:26:47.419+0000][68][gc,phases   ] GC(5)   Pre Evacuate Collection Set: 0.3ms
+[2022-09-06T09:26:47.419+0000][68][gc,phases   ] GC(5)   Merge Heap Roots: 0.1ms
+[2022-09-06T09:26:47.419+0000][68][gc,phases   ] GC(5)   Evacuate Collection Set: 10.1ms
+[2022-09-06T09:26:47.419+0000][68][gc,phases   ] GC(5)   Post Evacuate Collection Set: 1.3ms
+[2022-09-06T09:26:47.419+0000][68][gc,phases   ] GC(5)   Other: 0.1ms
+[2022-09-06T09:26:47.419+0000][68][gc,age      ] GC(5) Age table with threshold 15 (max threshold 15)
+[2022-09-06T09:26:47.419+0000][68][gc,age      ] GC(5) - age   1:     991024 bytes,     991024 total
+[2022-09-06T09:26:47.419+0000][68][gc,age      ] GC(5) - age   2:    5815080 bytes,    6806104 total
+[2022-09-06T09:26:47.419+0000][68][gc,age      ] GC(5) - age   3:    3899616 bytes,   10705720 total
+[2022-09-06T09:26:47.419+0000][68][gc,age      ] GC(5) - age   4:    6632200 bytes,   17337920 total
+[2022-09-06T09:26:47.419+0000][68][gc,age      ] GC(5) - age   5:   10710720 bytes,   28048640 total
+[2022-09-06T09:26:47.419+0000][68][gc,heap     ] GC(5) Eden regions: 13->0(931)
+[2022-09-06T09:26:47.419+0000][68][gc,heap     ] GC(5) Survivor regions: 8->8(118)
+[2022-09-06T09:26:47.419+0000][68][gc,heap     ] GC(5) Old regions: 0->0
+[2022-09-06T09:26:47.419+0000][68][gc,heap     ] GC(5) Archive regions: 2->2
+[2022-09-06T09:26:47.419+0000][68][gc,heap     ] GC(5) Humongous regions: 0->0
+[2022-09-06T09:26:47.419+0000][68][gc,metaspace] GC(5) Metaspace: 35159K(36096K)->35159K(36096K) NonClass: 31028K(31616K)->31028K(31616K) Class: 4131K(4480K)->4131K(4480K)
+[2022-09-06T09:26:47.419+0000][68][gc          ] GC(5) Pause Young (Concurrent Start) (Metadata GC Threshold) 84M->32M(6260M) 12.097ms
+[2022-09-06T09:26:47.419+0000][68][gc,cpu      ] GC(5) User=0.08s Sys=0.00s Real=0.01s
+[2022-09-06T09:26:47.419+0000][68][gc          ] GC(6) Concurrent Mark Cycle
+[2022-09-06T09:26:47.419+0000][68][gc,marking  ] GC(6) Concurrent Clear Claimed Marks
+[2022-09-06T09:26:47.419+0000][68][gc,marking  ] GC(6) Concurrent Clear Claimed Marks 0.068ms
+[2022-09-06T09:26:47.419+0000][68][gc,marking  ] GC(6) Concurrent Scan Root Regions
+[2022-09-06T09:26:47.419+0000][68][safepoint   ] Safepoint "CollectForMetadataAllocation", Time since last: 163995785 ns, Reaching safepoint: 122139 ns, At safepoint: 12255262 ns, Total: 12377401 ns
+[2022-09-06T09:26:47.424+0000][68][gc,marking  ] GC(6) Concurrent Scan Root Regions 5.085ms
+[2022-09-06T09:26:47.425+0000][68][gc,marking  ] GC(6) Concurrent Mark
+[2022-09-06T09:26:47.425+0000][68][gc,marking  ] GC(6) Concurrent Mark From Roots
+[2022-09-06T09:26:47.425+0000][68][gc,task     ] GC(6) Using 2 workers of 2 for marking
+[2022-09-06T09:26:47.426+0000][68][gc,marking  ] GC(6) Concurrent Mark From Roots 1.516ms
+[2022-09-06T09:26:47.426+0000][68][gc,marking  ] GC(6) Concurrent Preclean
+[2022-09-06T09:26:47.426+0000][68][gc,marking  ] GC(6) Concurrent Preclean 0.011ms
+[2022-09-06T09:26:47.426+0000][68][gc,start    ] GC(6) Pause Remark
+[2022-09-06T09:26:47.432+0000][68][gc          ] GC(6) Pause Remark 34M->34M(6260M) 5.347ms
+[2022-09-06T09:26:47.432+0000][68][gc,cpu      ] GC(6) User=0.01s Sys=0.00s Real=0.00s
+[2022-09-06T09:26:47.432+0000][68][safepoint   ] Safepoint "G1Concurrent", Time since last: 6796154 ns, Reaching safepoint: 203222 ns, At safepoint: 5465636 ns, Total: 5668858 ns
+[2022-09-06T09:26:47.432+0000][68][gc,marking  ] GC(6) Concurrent Mark 7.341ms
+[2022-09-06T09:26:47.432+0000][68][gc,marking  ] GC(6) Concurrent Rebuild Remembered Sets
+[2022-09-06T09:26:47.432+0000][68][gc,marking  ] GC(6) Concurrent Rebuild Remembered Sets 0.007ms
+[2022-09-06T09:26:47.432+0000][68][gc,start    ] GC(6) Pause Cleanup
+[2022-09-06T09:26:47.432+0000][68][gc          ] GC(6) Pause Cleanup 34M->34M(6260M) 0.012ms
+[2022-09-06T09:26:47.432+0000][68][gc,cpu      ] GC(6) User=0.00s Sys=0.00s Real=0.00s
+[2022-09-06T09:26:47.432+0000][68][safepoint   ] Safepoint "G1Concurrent", Time since last: 97696 ns, Reaching safepoint: 191770 ns, At safepoint: 49104 ns, Total: 240874 ns
+[2022-09-06T09:26:47.432+0000][68][gc,marking  ] GC(6) Concurrent Cleanup for Next Mark
+[2022-09-06T09:26:47.441+0000][68][gc,marking  ] GC(6) Concurrent Cleanup for Next Mark 8.300ms
+[2022-09-06T09:26:47.441+0000][68][gc          ] GC(6) Concurrent Mark Cycle 21.310ms
+[2022-09-06T09:26:47.983+0000][68][safepoint   ] Safepoint "ICBufferFull", Time since last: 550020372 ns, Reaching safepoint: 317966 ns, At safepoint: 6701 ns, Total: 324667 ns
+[2022-09-06T09:26:48.508+0000][68][safepoint   ] Safepoint "ICBufferFull", Time since last: 525537391 ns, Reaching safepoint: 174243 ns, At safepoint: 2365 ns, Total: 176608 ns
+[2022-09-06T09:26:49.244+0000][68][safepoint   ] Safepoint "ICBufferFull", Time since last: 735064743 ns, Reaching safepoint: 239646 ns, At safepoint: 2904 ns, Total: 242550 ns
+[2022-09-06T09:26:49.614+0000][68][safepoint   ] Safepoint "ICBufferFull", Time since last: 370325610 ns, Reaching safepoint: 252425 ns, At safepoint: 35316 ns, Total: 287741 ns
+[2022-09-06T09:26:49.783+0000][68][gc,start    ] GC(7) Pause Young (Concurrent Start) (Metadata GC Threshold)
+[2022-09-06T09:26:49.783+0000][68][gc,task     ] GC(7) Using 8 workers of 8 for evacuation
+[2022-09-06T09:26:49.783+0000][68][gc,age      ] GC(7) Desired survivor size 247463936 bytes, new threshold 15 (max threshold 15)
+[2022-09-06T09:26:49.803+0000][68][gc,phases   ] GC(7)   Pre Evacuate Collection Set: 0.4ms
+[2022-09-06T09:26:49.803+0000][68][gc,phases   ] GC(7)   Merge Heap Roots: 0.2ms
+[2022-09-06T09:26:49.803+0000][68][gc,phases   ] GC(7)   Evacuate Collection Set: 16.7ms
+[2022-09-06T09:26:49.803+0000][68][gc,phases   ] GC(7)   Post Evacuate Collection Set: 3.4ms
+[2022-09-06T09:26:49.803+0000][68][gc,phases   ] GC(7)   Other: 0.1ms
+[2022-09-06T09:26:49.803+0000][68][gc,age      ] GC(7) Age table with threshold 15 (max threshold 15)
+[2022-09-06T09:26:49.803+0000][68][gc,age      ] GC(7) - age   1:   25322312 bytes,   25322312 total
+[2022-09-06T09:26:49.803+0000][68][gc,age      ] GC(7) - age   2:     938896 bytes,   26261208 total
+[2022-09-06T09:26:49.803+0000][68][gc,age      ] GC(7) - age   3:    5785704 bytes,   32046912 total
+[2022-09-06T09:26:49.803+0000][68][gc,age      ] GC(7) - age   4:    3846016 bytes,   35892928 total
+[2022-09-06T09:26:49.803+0000][68][gc,age      ] GC(7) - age   5:    6598896 bytes,   42491824 total
+[2022-09-06T09:26:49.803+0000][68][gc,age      ] GC(7) - age   6:   10625272 bytes,   53117096 total
+[2022-09-06T09:26:49.803+0000][68][gc,heap     ] GC(7) Eden regions: 110->0(113)
+[2022-09-06T09:26:49.803+0000][68][gc,heap     ] GC(7) Survivor regions: 8->14(118)
+[2022-09-06T09:26:49.803+0000][68][gc,heap     ] GC(7) Old regions: 0->0
+[2022-09-06T09:26:49.803+0000][68][gc,heap     ] GC(7) Archive regions: 2->2
+[2022-09-06T09:26:49.803+0000][68][gc,heap     ] GC(7) Humongous regions: 0->0
+[2022-09-06T09:26:49.803+0000][68][gc,metaspace] GC(7) Metaspace: 58863K(60288K)->58863K(60288K) NonClass: 51388K(52160K)->51388K(52160K) Class: 7475K(8128K)->7475K(8128K)
+[2022-09-06T09:26:49.803+0000][68][gc          ] GC(7) Pause Young (Concurrent Start) (Metadata GC Threshold) 472M->57M(6260M) 20.916ms
+[2022-09-06T09:26:49.803+0000][68][gc,cpu      ] GC(7) User=0.13s Sys=0.00s Real=0.02s
+[2022-09-06T09:26:49.804+0000][68][safepoint   ] Safepoint "CollectForMetadataAllocation", Time since last: 168168426 ns, Reaching safepoint: 169462 ns, At safepoint: 21055691 ns, Total: 21225153 ns
+[2022-09-06T09:26:49.804+0000][68][gc          ] GC(8) Concurrent Mark Cycle
+[2022-09-06T09:26:49.804+0000][68][gc,marking  ] GC(8) Concurrent Clear Claimed Marks
+[2022-09-06T09:26:49.804+0000][68][gc,marking  ] GC(8) Concurrent Clear Claimed Marks 0.088ms
+[2022-09-06T09:26:49.804+0000][68][gc,marking  ] GC(8) Concurrent Scan Root Regions
+[2022-09-06T09:26:49.814+0000][68][gc,marking  ] GC(8) Concurrent Scan Root Regions 10.667ms
+[2022-09-06T09:26:49.814+0000][68][gc,marking  ] GC(8) Concurrent Mark
+[2022-09-06T09:26:49.814+0000][68][gc,marking  ] GC(8) Concurrent Mark From Roots
+[2022-09-06T09:26:49.814+0000][68][gc,task     ] GC(8) Using 2 workers of 2 for marking
+[2022-09-06T09:26:49.816+0000][68][gc,marking  ] GC(8) Concurrent Mark From Roots 1.217ms
+[2022-09-06T09:26:49.816+0000][68][gc,marking  ] GC(8) Concurrent Preclean
+[2022-09-06T09:26:49.816+0000][68][gc,marking  ] GC(8) Concurrent Preclean 0.007ms
+[2022-09-06T09:26:49.816+0000][68][gc,start    ] GC(8) Pause Remark
+[2022-09-06T09:26:49.819+0000][68][gc          ] GC(8) Pause Remark 59M->59M(6260M) 2.548ms
+[2022-09-06T09:26:49.819+0000][68][gc,cpu      ] GC(8) User=0.01s Sys=0.00s Real=0.00s
+[2022-09-06T09:26:49.819+0000][68][safepoint   ] Safepoint "G1Concurrent", Time since last: 12193040 ns, Reaching safepoint: 276230 ns, At safepoint: 2620344 ns, Total: 2896574 ns
+[2022-09-06T09:26:49.819+0000][68][gc,marking  ] GC(8) Concurrent Mark 4.381ms
+[2022-09-06T09:26:49.819+0000][68][gc,marking  ] GC(8) Concurrent Rebuild Remembered Sets
+[2022-09-06T09:26:49.819+0000][68][gc,marking  ] GC(8) Concurrent Rebuild Remembered Sets 0.004ms
+[2022-09-06T09:26:49.819+0000][68][gc,start    ] GC(8) Pause Cleanup
+[2022-09-06T09:26:49.819+0000][68][gc          ] GC(8) Pause Cleanup 59M->59M(6260M) 0.015ms
+[2022-09-06T09:26:49.819+0000][68][gc,cpu      ] GC(8) User=0.00s Sys=0.00s Real=0.00s
+[2022-09-06T09:26:49.819+0000][68][safepoint   ] Safepoint "G1Concurrent", Time since last: 241353 ns, Reaching safepoint: 204953 ns, At safepoint: 47738 ns, Total: 252691 ns
+[2022-09-06T09:26:49.819+0000][68][gc,marking  ] GC(8) Concurrent Cleanup for Next Mark
+[2022-09-06T09:26:49.826+0000][68][gc,marking  ] GC(8) Concurrent Cleanup for Next Mark 6.541ms
+[2022-09-06T09:26:49.826+0000][68][gc          ] GC(8) Concurrent Mark Cycle 22.217ms
+[2022-09-06T09:26:51.047+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1227158321 ns, Reaching safepoint: 286363 ns, At safepoint: 22783 ns, Total: 309146 ns
+[2022-09-06T09:26:51.862+0000][68][safepoint   ] Safepoint "ICBufferFull", Time since last: 813836457 ns, Reaching safepoint: 1055324 ns, At safepoint: 28463 ns, Total: 1083787 ns
+[2022-09-06T09:26:52.545+0000][68][safepoint   ] Safepoint "ICBufferFull", Time since last: 683196344 ns, Reaching safepoint: 375654 ns, At safepoint: 21447 ns, Total: 397101 ns
+[2022-09-06T09:26:52.873+0000][68][gc,start    ] GC(9) Pause Young (Normal) (G1 Evacuation Pause)
+[2022-09-06T09:26:52.873+0000][68][gc,task     ] GC(9) Using 8 workers of 8 for evacuation
+[2022-09-06T09:26:52.873+0000][68][gc,age      ] GC(9) Desired survivor size 33554432 bytes, new threshold 4 (max threshold 15)
+[2022-09-06T09:26:52.898+0000][68][gc,phases   ] GC(9)   Pre Evacuate Collection Set: 0.2ms
+[2022-09-06T09:26:52.898+0000][68][gc,phases   ] GC(9)   Merge Heap Roots: 0.1ms
+[2022-09-06T09:26:52.898+0000][68][gc,phases   ] GC(9)   Evacuate Collection Set: 22.1ms
+[2022-09-06T09:26:52.898+0000][68][gc,phases   ] GC(9)   Post Evacuate Collection Set: 3.0ms
+[2022-09-06T09:26:52.898+0000][68][gc,phases   ] GC(9)   Other: 0.1ms
+[2022-09-06T09:26:52.898+0000][68][gc,age      ] GC(9) Age table with threshold 4 (max threshold 15)
+[2022-09-06T09:26:52.898+0000][68][gc,age      ] GC(9) - age   1:   15379456 bytes,   15379456 total
+[2022-09-06T09:26:52.898+0000][68][gc,age      ] GC(9) - age   2:   24799496 bytes,   40178952 total
+[2022-09-06T09:26:52.898+0000][68][gc,age      ] GC(9) - age   3:     931136 bytes,   41110088 total
+[2022-09-06T09:26:52.898+0000][68][gc,age      ] GC(9) - age   4:    5773784 bytes,   46883872 total
+[2022-09-06T09:26:52.898+0000][68][gc,heap     ] GC(9) Eden regions: 113->0(138)
+[2022-09-06T09:26:52.898+0000][68][gc,heap     ] GC(9) Survivor regions: 14->13(16)
+[2022-09-06T09:26:52.898+0000][68][gc,heap     ] GC(9) Old regions: 0->6
+[2022-09-06T09:26:52.898+0000][68][gc,heap     ] GC(9) Archive regions: 2->2
+[2022-09-06T09:26:52.898+0000][68][gc,heap     ] GC(9) Humongous regions: 0->0
+[2022-09-06T09:26:52.898+0000][68][gc,metaspace] GC(9) Metaspace: 94674K(97088K)->94674K(97088K) NonClass: 82113K(83392K)->82113K(83392K) Class: 12560K(13696K)->12560K(13696K)
+[2022-09-06T09:26:52.898+0000][68][gc          ] GC(9) Pause Young (Normal) (G1 Evacuation Pause) 509M->73M(6260M) 25.607ms
+[2022-09-06T09:26:52.898+0000][68][gc,cpu      ] GC(9) User=0.19s Sys=0.01s Real=0.03s
+[2022-09-06T09:26:52.898+0000][68][safepoint   ] Safepoint "G1CollectForAllocation", Time since last: 327211497 ns, Reaching safepoint: 328786 ns, At safepoint: 25689873 ns, Total: 26018659 ns
+[2022-09-06T09:26:53.082+0000][68][gc,start    ] GC(10) Pause Young (Concurrent Start) (Metadata GC Threshold)
+[2022-09-06T09:26:53.082+0000][68][gc,task     ] GC(10) Using 8 workers of 8 for evacuation
+[2022-09-06T09:26:53.082+0000][68][gc,age      ] GC(10) Desired survivor size 39845888 bytes, new threshold 2 (max threshold 15)
+[2022-09-06T09:26:53.098+0000][68][gc,phases   ] GC(10)   Pre Evacuate Collection Set: 0.5ms
+[2022-09-06T09:26:53.098+0000][68][gc,phases   ] GC(10)   Merge Heap Roots: 0.2ms
+[2022-09-06T09:26:53.098+0000][68][gc,phases   ] GC(10)   Evacuate Collection Set: 13.1ms
+[2022-09-06T09:26:53.099+0000][68][gc,phases   ] GC(10)   Post Evacuate Collection Set: 2.2ms
+[2022-09-06T09:26:53.099+0000][68][gc,phases   ] GC(10)   Other: 0.2ms
+[2022-09-06T09:26:53.099+0000][68][gc,age      ] GC(10) Age table with threshold 2 (max threshold 15)
+[2022-09-06T09:26:53.099+0000][68][gc,age      ] GC(10) - age   1:    1948728 bytes,    1948728 total
+[2022-09-06T09:26:53.099+0000][68][gc,age      ] GC(10) - age   2:   14560880 bytes,   16509608 total
+[2022-09-06T09:26:53.099+0000][68][gc,heap     ] GC(10) Eden regions: 8->0(265)
+[2022-09-06T09:26:53.099+0000][68][gc,heap     ] GC(10) Survivor regions: 13->6(19)
+[2022-09-06T09:26:53.099+0000][68][gc,heap     ] GC(10) Old regions: 6->13
+[2022-09-06T09:26:53.099+0000][68][gc,heap     ] GC(10) Archive regions: 2->2
+[2022-09-06T09:26:53.099+0000][68][gc,heap     ] GC(10) Humongous regions: 0->0
+[2022-09-06T09:26:53.099+0000][68][gc,metaspace] GC(10) Metaspace: 97980K(100928K)->97980K(100928K) NonClass: 84852K(86400K)->84852K(86400K) Class: 13127K(14528K)->13127K(14528K)
+[2022-09-06T09:26:53.099+0000][68][gc          ] GC(10) Pause Young (Concurrent Start) (Metadata GC Threshold) 101M->76M(6260M) 16.335ms
+[2022-09-06T09:26:53.099+0000][68][gc,cpu      ] GC(10) User=0.12s Sys=0.00s Real=0.02s
+[2022-09-06T09:26:53.099+0000][68][gc          ] GC(11) Concurrent Mark Cycle
+[2022-09-06T09:26:53.099+0000][68][gc,marking  ] GC(11) Concurrent Clear Claimed Marks
+[2022-09-06T09:26:53.099+0000][68][safepoint   ] Safepoint "CollectForMetadataAllocation", Time since last: 183675547 ns, Reaching safepoint: 147173 ns, At safepoint: 16495137 ns, Total: 16642310 ns
+[2022-09-06T09:26:53.099+0000][68][gc,marking  ] GC(11) Concurrent Clear Claimed Marks 0.221ms
+[2022-09-06T09:26:53.099+0000][68][gc,marking  ] GC(11) Concurrent Scan Root Regions
+[2022-09-06T09:26:53.112+0000][68][gc,marking  ] GC(11) Concurrent Scan Root Regions 12.772ms
+[2022-09-06T09:26:53.112+0000][68][gc,marking  ] GC(11) Concurrent Mark
+[2022-09-06T09:26:53.112+0000][68][gc,marking  ] GC(11) Concurrent Mark From Roots
+[2022-09-06T09:26:53.112+0000][68][gc,task     ] GC(11) Using 2 workers of 2 for marking
+[2022-09-06T09:26:53.116+0000][68][safepoint   ] Safepoint "CollectForMetadataAllocation", Time since last: 17329913 ns, Reaching safepoint: 191841 ns, At safepoint: 91155 ns, Total: 282996 ns
+[2022-09-06T09:26:53.122+0000][68][gc,marking  ] GC(11) Concurrent Mark From Roots 10.029ms
+[2022-09-06T09:26:53.122+0000][68][gc,marking  ] GC(11) Concurrent Preclean
+[2022-09-06T09:26:53.122+0000][68][gc,marking  ] GC(11) Concurrent Preclean 0.073ms
+[2022-09-06T09:26:53.122+0000][68][gc,start    ] GC(11) Pause Remark
+[2022-09-06T09:26:53.129+0000][68][gc          ] GC(11) Pause Remark 80M->80M(6260M) 7.154ms
+[2022-09-06T09:26:53.129+0000][68][gc,cpu      ] GC(11) User=0.05s Sys=0.00s Real=0.01s
+[2022-09-06T09:26:53.129+0000][68][safepoint   ] Safepoint "G1Concurrent", Time since last: 5626538 ns, Reaching safepoint: 205991 ns, At safepoint: 7246653 ns, Total: 7452644 ns
+[2022-09-06T09:26:53.130+0000][68][gc,marking  ] GC(11) Concurrent Mark 17.858ms
+[2022-09-06T09:26:53.130+0000][68][gc,marking  ] GC(11) Concurrent Rebuild Remembered Sets
+[2022-09-06T09:26:53.141+0000][68][gc,marking  ] GC(11) Concurrent Rebuild Remembered Sets 11.054ms
+[2022-09-06T09:26:53.141+0000][68][gc,start    ] GC(11) Pause Cleanup
+[2022-09-06T09:26:53.141+0000][68][gc          ] GC(11) Pause Cleanup 80M->80M(6260M) 0.239ms
+[2022-09-06T09:26:53.141+0000][68][gc,cpu      ] GC(11) User=0.00s Sys=0.00s Real=0.00s
+[2022-09-06T09:26:53.141+0000][68][safepoint   ] Safepoint "G1Concurrent", Time since last: 11358345 ns, Reaching safepoint: 278693 ns, At safepoint: 309363 ns, Total: 588056 ns
+[2022-09-06T09:26:53.141+0000][68][gc,marking  ] GC(11) Concurrent Cleanup for Next Mark
+[2022-09-06T09:26:53.149+0000][68][gc,marking  ] GC(11) Concurrent Cleanup for Next Mark 8.069ms
+[2022-09-06T09:26:53.150+0000][68][gc          ] GC(11) Concurrent Mark Cycle 50.872ms
+[2022-09-06T09:26:53.446+0000][68][safepoint   ] Safepoint "ICBufferFull", Time since last: 304085947 ns, Reaching safepoint: 411827 ns, At safepoint: 45520 ns, Total: 457347 ns
+[2022-09-06T09:26:53.548+0000][68][safepoint   ] Safepoint "ICBufferFull", Time since last: 101773553 ns, Reaching safepoint: 329754 ns, At safepoint: 27899 ns, Total: 357653 ns
+[2022-09-06T09:26:53.734+0000][68][safepoint   ] Safepoint "ICBufferFull", Time since last: 185950346 ns, Reaching safepoint: 146508 ns, At safepoint: 15287 ns, Total: 161795 ns
+[2022-09-06T09:26:54.046+0000][68][safepoint   ] Safepoint "ICBufferFull", Time since last: 311391199 ns, Reaching safepoint: 227182 ns, At safepoint: 34482 ns, Total: 261664 ns
+[2022-09-06T09:26:54.521+0000][68][safepoint   ] Safepoint "ICBufferFull", Time since last: 474401412 ns, Reaching safepoint: 378024 ns, At safepoint: 30456 ns, Total: 408480 ns
+[2022-09-06T09:26:54.677+0000][68][safepoint   ] Safepoint "ICBufferFull", Time since last: 155775643 ns, Reaching safepoint: 206731 ns, At safepoint: 29346 ns, Total: 236077 ns
+[2022-09-06T09:26:54.928+0000][68][safepoint   ] Safepoint "ICBufferFull", Time since last: 251191237 ns, Reaching safepoint: 256504 ns, At safepoint: 8016 ns, Total: 264520 ns
+[2022-09-06T09:26:55.151+0000][68][safepoint   ] Safepoint "ICBufferFull", Time since last: 222890422 ns, Reaching safepoint: 233208 ns, At safepoint: 54934 ns, Total: 288142 ns
+[2022-09-06T09:26:55.687+0000][68][safepoint   ] Safepoint "ICBufferFull", Time since last: 535689888 ns, Reaching safepoint: 295092 ns, At safepoint: 43227 ns, Total: 338319 ns
+[2022-09-06T09:26:56.688+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000138848 ns, Reaching safepoint: 147039 ns, At safepoint: 3170 ns, Total: 150209 ns
+[2022-09-06T09:26:57.688+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000150424 ns, Reaching safepoint: 124947 ns, At safepoint: 2547 ns, Total: 127494 ns
+[2022-09-06T09:26:58.688+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000171815 ns, Reaching safepoint: 123181 ns, At safepoint: 3020 ns, Total: 126201 ns
+[2022-09-06T09:26:59.688+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000109864 ns, Reaching safepoint: 128116 ns, At safepoint: 2858 ns, Total: 130974 ns
+[2022-09-06T09:27:00.688+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000194238 ns, Reaching safepoint: 135453 ns, At safepoint: 3653 ns, Total: 139106 ns
+[2022-09-06T09:27:01.689+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000111205 ns, Reaching safepoint: 119218 ns, At safepoint: 3269 ns, Total: 122487 ns
+[2022-09-06T09:27:02.689+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000144435 ns, Reaching safepoint: 145258 ns, At safepoint: 2955 ns, Total: 148213 ns
+[2022-09-06T09:27:04.689+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000317709 ns, Reaching safepoint: 175426 ns, At safepoint: 3106 ns, Total: 178532 ns
+[2022-09-06T09:27:05.690+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000143405 ns, Reaching safepoint: 150440 ns, At safepoint: 3993 ns, Total: 154433 ns
+[2022-09-06T09:27:06.690+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000251521 ns, Reaching safepoint: 126045 ns, At safepoint: 7575 ns, Total: 133620 ns
+[2022-09-06T09:27:09.691+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 3000504175 ns, Reaching safepoint: 137286 ns, At safepoint: 3418 ns, Total: 140704 ns
+[2022-09-06T09:27:13.691+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 4000517531 ns, Reaching safepoint: 123586 ns, At safepoint: 2715 ns, Total: 126301 ns
+[2022-09-06T09:27:15.692+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000398640 ns, Reaching safepoint: 174277 ns, At safepoint: 6724 ns, Total: 181001 ns
+[2022-09-06T09:27:19.693+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 4000528485 ns, Reaching safepoint: 174414 ns, At safepoint: 3545 ns, Total: 177959 ns
+[2022-09-06T09:27:23.693+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 4000704445 ns, Reaching safepoint: 129508 ns, At safepoint: 3255 ns, Total: 132763 ns
+[2022-09-06T09:27:24.694+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000110858 ns, Reaching safepoint: 125569 ns, At safepoint: 3533 ns, Total: 129102 ns
+[2022-09-06T09:27:25.694+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000123283 ns, Reaching safepoint: 115747 ns, At safepoint: 3103 ns, Total: 118850 ns
+[2022-09-06T09:27:26.694+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000240043 ns, Reaching safepoint: 132119 ns, At safepoint: 7016 ns, Total: 139135 ns
+[2022-09-06T09:27:29.695+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 3000475386 ns, Reaching safepoint: 129416 ns, At safepoint: 3583 ns, Total: 132999 ns
+[2022-09-06T09:27:31.696+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000384617 ns, Reaching safepoint: 136280 ns, At safepoint: 7006 ns, Total: 143286 ns
+[2022-09-06T09:27:36.696+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 5000716070 ns, Reaching safepoint: 174192 ns, At safepoint: 6537 ns, Total: 180729 ns
+[2022-09-06T09:27:41.698+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 5001080103 ns, Reaching safepoint: 141450 ns, At safepoint: 5688 ns, Total: 147138 ns
+[2022-09-06T09:27:47.699+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 6000980478 ns, Reaching safepoint: 269741 ns, At safepoint: 8145 ns, Total: 277886 ns
+[2022-09-06T09:27:54.700+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 7001350241 ns, Reaching safepoint: 139438 ns, At safepoint: 5560 ns, Total: 144998 ns
+[2022-09-06T09:27:56.701+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000557856 ns, Reaching safepoint: 172618 ns, At safepoint: 7390 ns, Total: 180008 ns
+[2022-09-06T09:28:06.704+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 10002578374 ns, Reaching safepoint: 165929 ns, At safepoint: 4708 ns, Total: 170637 ns
+[2022-09-06T09:28:07.705+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000330260 ns, Reaching safepoint: 276057 ns, At safepoint: 8159 ns, Total: 284216 ns
+[2022-09-06T09:28:11.706+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 4000919438 ns, Reaching safepoint: 253315 ns, At safepoint: 8072 ns, Total: 261387 ns
+[2022-09-06T09:28:20.709+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 9002605297 ns, Reaching safepoint: 452906 ns, At safepoint: 19343 ns, Total: 472249 ns
+[2022-09-06T09:28:24.710+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 4000891530 ns, Reaching safepoint: 122744 ns, At safepoint: 2532 ns, Total: 125276 ns
+[2022-09-06T09:28:25.711+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000325157 ns, Reaching safepoint: 143610 ns, At safepoint: 7290 ns, Total: 150900 ns
+[2022-09-06T09:28:26.711+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000168729 ns, Reaching safepoint: 155901 ns, At safepoint: 3208 ns, Total: 159109 ns
+[2022-09-06T09:28:27.711+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000231272 ns, Reaching safepoint: 183376 ns, At safepoint: 7630 ns, Total: 191006 ns
+[2022-09-06T09:28:33.713+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 6001113529 ns, Reaching safepoint: 140050 ns, At safepoint: 3227 ns, Total: 143277 ns
+[2022-09-06T09:28:54.717+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 21003791597 ns, Reaching safepoint: 155152 ns, At safepoint: 5080 ns, Total: 160232 ns
+[2022-09-06T09:28:58.718+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 4001240298 ns, Reaching safepoint: 319996 ns, At safepoint: 7970 ns, Total: 327966 ns
+[2022-09-06T09:28:59.719+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000300140 ns, Reaching safepoint: 244468 ns, At safepoint: 6192 ns, Total: 250660 ns
+[2022-09-06T09:29:03.720+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 4000818580 ns, Reaching safepoint: 294954 ns, At safepoint: 6304 ns, Total: 301258 ns
+[2022-09-06T09:29:11.723+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 8002366079 ns, Reaching safepoint: 214520 ns, At safepoint: 5230 ns, Total: 219750 ns
+[2022-09-06T09:29:16.725+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 5001580564 ns, Reaching safepoint: 372284 ns, At safepoint: 15833 ns, Total: 388117 ns
+[2022-09-06T09:29:17.725+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000156358 ns, Reaching safepoint: 152346 ns, At safepoint: 4101 ns, Total: 156447 ns
+[2022-09-06T09:29:18.725+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000265285 ns, Reaching safepoint: 153622 ns, At safepoint: 3392 ns, Total: 157014 ns
+[2022-09-06T09:29:21.726+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 3000697497 ns, Reaching safepoint: 326702 ns, At safepoint: 11666 ns, Total: 338368 ns
+[2022-09-06T09:29:24.727+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 3000733809 ns, Reaching safepoint: 333326 ns, At safepoint: 9169 ns, Total: 342495 ns
+[2022-09-06T09:29:29.735+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 5001686527 ns, Reaching safepoint: 519092 ns, At safepoint: 22193 ns, Total: 541285 ns
+[2022-09-06T09:29:43.740+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 14004538106 ns, Reaching safepoint: 387274 ns, At safepoint: 10388 ns, Total: 397662 ns
+[2022-09-06T09:29:51.743+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 8002292206 ns, Reaching safepoint: 323972 ns, At safepoint: 8177 ns, Total: 332149 ns
+[2022-09-06T09:29:53.744+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000726032 ns, Reaching safepoint: 320746 ns, At safepoint: 7856 ns, Total: 328602 ns
+[2022-09-06T09:29:54.745+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000487409 ns, Reaching safepoint: 365559 ns, At safepoint: 9756 ns, Total: 375315 ns
+[2022-09-06T09:29:56.746+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000900765 ns, Reaching safepoint: 322001 ns, At safepoint: 9336 ns, Total: 331337 ns
+[2022-09-06T09:30:02.757+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 6001939324 ns, Reaching safepoint: 352470 ns, At safepoint: 9225 ns, Total: 361695 ns
+[2022-09-06T09:30:21.763+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 19005228239 ns, Reaching safepoint: 481901 ns, At safepoint: 31230 ns, Total: 513131 ns
+[2022-09-06T09:30:24.764+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 3001011363 ns, Reaching safepoint: 361500 ns, At safepoint: 9968 ns, Total: 371468 ns
+[2022-09-06T09:30:25.765+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000378808 ns, Reaching safepoint: 327719 ns, At safepoint: 8552 ns, Total: 336271 ns
+[2022-09-06T09:30:41.779+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 16005154071 ns, Reaching safepoint: 636939 ns, At safepoint: 81137 ns, Total: 718076 ns
+[2022-09-06T09:30:44.781+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 3001182432 ns, Reaching safepoint: 411088 ns, At safepoint: 42953 ns, Total: 454041 ns
+[2022-09-06T09:30:54.784+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 10003055972 ns, Reaching safepoint: 179089 ns, At safepoint: 7076 ns, Total: 186165 ns
+[2022-09-06T09:30:55.785+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000338288 ns, Reaching safepoint: 521085 ns, At safepoint: 22328 ns, Total: 543413 ns
+[2022-09-06T09:31:16.801+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 21006867434 ns, Reaching safepoint: 150808 ns, At safepoint: 5465 ns, Total: 156273 ns
+[2022-09-06T09:31:21.802+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 5000778348 ns, Reaching safepoint: 239104 ns, At safepoint: 12513 ns, Total: 251617 ns
+[2022-09-06T09:31:24.803+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 3000689837 ns, Reaching safepoint: 125297 ns, At safepoint: 5146 ns, Total: 130443 ns
+[2022-09-06T09:31:29.812+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 5000953505 ns, Reaching safepoint: 165466 ns, At safepoint: 14096 ns, Total: 179562 ns
+[2022-09-06T09:31:32.937+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 3125093429 ns, Reaching safepoint: 113871 ns, At safepoint: 14468 ns, Total: 128339 ns
+[2022-09-06T09:31:34.600+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1662737655 ns, Reaching safepoint: 224169 ns, At safepoint: 55067 ns, Total: 279236 ns
+[2022-09-06T09:31:35.386+0000][68][safepoint   ] Safepoint "ICBufferFull", Time since last: 785117057 ns, Reaching safepoint: 200227 ns, At safepoint: 30465 ns, Total: 230692 ns
+[2022-09-06T09:31:36.640+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000225309 ns, Reaching safepoint: 253707216 ns, At safepoint: 140746 ns, Total: 253847962 ns
+[2022-09-06T09:31:37.640+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000133829 ns, Reaching safepoint: 149010 ns, At safepoint: 76634 ns, Total: 225644 ns
+[2022-09-06T09:31:38.212+0000][68][safepoint   ] Safepoint "ICBufferFull", Time since last: 571184497 ns, Reaching safepoint: 525119 ns, At safepoint: 28665 ns, Total: 553784 ns
+[2022-09-06T09:31:39.241+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1028851390 ns, Reaching safepoint: 159039 ns, At safepoint: 4690 ns, Total: 163729 ns
+[2022-09-06T09:31:40.241+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000159924 ns, Reaching safepoint: 171100 ns, At safepoint: 7048 ns, Total: 178148 ns
+[2022-09-06T09:31:41.242+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000130999 ns, Reaching safepoint: 138533 ns, At safepoint: 3317 ns, Total: 141850 ns
+[2022-09-06T09:31:42.242+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000138023 ns, Reaching safepoint: 129548 ns, At safepoint: 4233 ns, Total: 133781 ns
+[2022-09-06T09:31:43.612+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000198495 ns, Reaching safepoint: 370243104 ns, At safepoint: 96372 ns, Total: 370339476 ns
+[2022-09-06T09:31:44.719+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1106511653 ns, Reaching safepoint: 203731 ns, At safepoint: 36947 ns, Total: 240678 ns
+[2022-09-06T09:31:53.720+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 9000935548 ns, Reaching safepoint: 248540 ns, At safepoint: 13104 ns, Total: 261644 ns
+[2022-09-06T09:31:55.559+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1838377945 ns, Reaching safepoint: 136021 ns, At safepoint: 72513 ns, Total: 208534 ns
+[2022-09-06T09:31:56.559+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000208962 ns, Reaching safepoint: 129619 ns, At safepoint: 7144 ns, Total: 136763 ns
+[2022-09-06T09:31:59.138+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2578322736 ns, Reaching safepoint: 144153 ns, At safepoint: 4006 ns, Total: 148159 ns
+[2022-09-06T09:32:10.530+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 11383426245 ns, Reaching safepoint: 254763 ns, At safepoint: 12830 ns, Total: 267593 ns
+[2022-09-06T09:32:12.531+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000326177 ns, Reaching safepoint: 156249 ns, At safepoint: 5360 ns, Total: 161609 ns
+[2022-09-06T09:32:22.117+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 9586462414 ns, Reaching safepoint: 119068 ns, At safepoint: 5005 ns, Total: 124073 ns
+[2022-09-06T09:32:22.962+0000][68][safepoint   ] Safepoint "ICBufferFull", Time since last: 844588172 ns, Reaching safepoint: 343655 ns, At safepoint: 21992 ns, Total: 365647 ns
+[2022-09-06T09:32:23.121+0000][68][safepoint   ] Safepoint "ICBufferFull", Time since last: 158832896 ns, Reaching safepoint: 289336 ns, At safepoint: 51319 ns, Total: 340655 ns
+[2022-09-06T09:32:24.705+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1583566239 ns, Reaching safepoint: 312755 ns, At safepoint: 65740 ns, Total: 378495 ns
+[2022-09-06T09:32:25.705+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000130468 ns, Reaching safepoint: 130090 ns, At safepoint: 3749 ns, Total: 133839 ns
+[2022-09-06T09:32:26.046+0000][68][safepoint   ] Safepoint "ICBufferFull", Time since last: 340420005 ns, Reaching safepoint: 205728 ns, At safepoint: 19849 ns, Total: 225577 ns
+[2022-09-06T09:32:27.046+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000154785 ns, Reaching safepoint: 152382 ns, At safepoint: 4933 ns, Total: 157315 ns
+[2022-09-06T09:32:28.640+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1592735315 ns, Reaching safepoint: 595342 ns, At safepoint: 26892 ns, Total: 622234 ns
+[2022-09-06T09:32:28.989+0000][68][safepoint   ] Safepoint "ICBufferFull", Time since last: 348630410 ns, Reaching safepoint: 321448 ns, At safepoint: 87867 ns, Total: 409315 ns
+[2022-09-06T09:32:29.989+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000433853 ns, Reaching safepoint: 189222 ns, At safepoint: 4681 ns, Total: 193903 ns
+[2022-09-06T09:32:30.999+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000369276 ns, Reaching safepoint: 226441 ns, At safepoint: 5000 ns, Total: 231441 ns
+[2022-09-06T09:32:31.999+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000198204 ns, Reaching safepoint: 281026 ns, At safepoint: 12682 ns, Total: 293708 ns
+[2022-09-06T09:32:33.000+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000123703 ns, Reaching safepoint: 140211 ns, At safepoint: 3918 ns, Total: 144129 ns
+[2022-09-06T09:32:35.000+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000362806 ns, Reaching safepoint: 140626 ns, At safepoint: 6270 ns, Total: 146896 ns
+[2022-09-06T09:32:36.001+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000317063 ns, Reaching safepoint: 141782 ns, At safepoint: 7260 ns, Total: 149042 ns
+[2022-09-06T09:32:41.002+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 5001019340 ns, Reaching safepoint: 278518 ns, At safepoint: 12379 ns, Total: 290897 ns
+[2022-09-06T09:32:43.003+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000681329 ns, Reaching safepoint: 239073 ns, At safepoint: 19080 ns, Total: 258153 ns
+[2022-09-06T09:32:44.004+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000474897 ns, Reaching safepoint: 353912 ns, At safepoint: 10110 ns, Total: 364022 ns
+[2022-09-06T09:32:45.005+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000507622 ns, Reaching safepoint: 270811 ns, At safepoint: 70366 ns, Total: 341177 ns
+[2022-09-06T09:32:46.005+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000361127 ns, Reaching safepoint: 358782 ns, At safepoint: 9785 ns, Total: 368567 ns
+[2022-09-06T09:32:47.006+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000237449 ns, Reaching safepoint: 171741 ns, At safepoint: 3175 ns, Total: 174916 ns
+[2022-09-06T09:32:48.006+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000121851 ns, Reaching safepoint: 148925 ns, At safepoint: 12391 ns, Total: 161316 ns
+[2022-09-06T09:32:50.007+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000364192 ns, Reaching safepoint: 138447 ns, At safepoint: 3307 ns, Total: 141754 ns
+[2022-09-06T09:32:53.007+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 3000616041 ns, Reaching safepoint: 284453 ns, At safepoint: 16368 ns, Total: 300821 ns
+[2022-09-06T09:32:54.008+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000304596 ns, Reaching safepoint: 128108 ns, At safepoint: 6062 ns, Total: 134170 ns
+[2022-09-06T09:32:55.009+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000310797 ns, Reaching safepoint: 442599 ns, At safepoint: 22652 ns, Total: 465251 ns
+[2022-09-06T09:32:56.009+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000248621 ns, Reaching safepoint: 138158 ns, At safepoint: 3247 ns, Total: 141405 ns
+[2022-09-06T09:32:58.010+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000522855 ns, Reaching safepoint: 341032 ns, At safepoint: 11243 ns, Total: 352275 ns
+[2022-09-06T09:32:59.011+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000387965 ns, Reaching safepoint: 362058 ns, At safepoint: 24591 ns, Total: 386649 ns
+[2022-09-06T09:33:00.011+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000157585 ns, Reaching safepoint: 148378 ns, At safepoint: 3965 ns, Total: 152343 ns
+[2022-09-06T09:33:01.020+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000154030 ns, Reaching safepoint: 176762 ns, At safepoint: 7808 ns, Total: 184570 ns
+[2022-09-06T09:33:02.020+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000150494 ns, Reaching safepoint: 167338 ns, At safepoint: 10224 ns, Total: 177562 ns
+[2022-09-06T09:33:03.020+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000252271 ns, Reaching safepoint: 180143 ns, At safepoint: 6907 ns, Total: 187050 ns
+[2022-09-06T09:33:05.021+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000205213 ns, Reaching safepoint: 263782 ns, At safepoint: 20764 ns, Total: 284546 ns
+[2022-09-06T09:33:08.022+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 3000471595 ns, Reaching safepoint: 143628 ns, At safepoint: 2998 ns, Total: 146626 ns
+[2022-09-06T09:33:11.023+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 3000818575 ns, Reaching safepoint: 356966 ns, At safepoint: 8619 ns, Total: 365585 ns
+[2022-09-06T09:33:13.024+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000698271 ns, Reaching safepoint: 346004 ns, At safepoint: 9105 ns, Total: 355109 ns
+[2022-09-06T09:33:14.025+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000491883 ns, Reaching safepoint: 361866 ns, At safepoint: 9677 ns, Total: 371543 ns
+[2022-09-06T09:33:16.026+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000771628 ns, Reaching safepoint: 216066 ns, At safepoint: 6400 ns, Total: 222466 ns
+[2022-09-06T09:33:17.026+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000148951 ns, Reaching safepoint: 151226 ns, At safepoint: 3945 ns, Total: 155171 ns
+[2022-09-06T09:33:18.027+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000341158 ns, Reaching safepoint: 401602 ns, At safepoint: 20915 ns, Total: 422517 ns
+[2022-09-06T09:33:20.028+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000676676 ns, Reaching safepoint: 275348 ns, At safepoint: 9378 ns, Total: 284726 ns
+[2022-09-06T09:33:23.029+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 3001025326 ns, Reaching safepoint: 353008 ns, At safepoint: 10267 ns, Total: 363275 ns
+[2022-09-06T09:33:24.029+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000212214 ns, Reaching safepoint: 150547 ns, At safepoint: 7514 ns, Total: 158061 ns
+[2022-09-06T09:33:26.030+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000316249 ns, Reaching safepoint: 185308 ns, At safepoint: 4159 ns, Total: 189467 ns
+[2022-09-06T09:33:27.030+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000235227 ns, Reaching safepoint: 156295 ns, At safepoint: 8050 ns, Total: 164345 ns
+[2022-09-06T09:33:29.032+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000753138 ns, Reaching safepoint: 526410 ns, At safepoint: 26965 ns, Total: 553375 ns
+[2022-09-06T09:33:30.032+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000167393 ns, Reaching safepoint: 135417 ns, At safepoint: 3483 ns, Total: 138900 ns
+[2022-09-06T09:33:32.042+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000711653 ns, Reaching safepoint: 308733 ns, At safepoint: 11898 ns, Total: 320631 ns
+[2022-09-06T09:33:33.043+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000460131 ns, Reaching safepoint: 413869 ns, At safepoint: 11011 ns, Total: 424880 ns
+[2022-09-06T09:33:35.043+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000382575 ns, Reaching safepoint: 142923 ns, At safepoint: 3670 ns, Total: 146593 ns
+[2022-09-06T09:33:38.044+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 3000583543 ns, Reaching safepoint: 139506 ns, At safepoint: 6352 ns, Total: 145858 ns
+[2022-09-06T09:33:41.045+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 3000659554 ns, Reaching safepoint: 541407 ns, At safepoint: 27755 ns, Total: 569162 ns
+[2022-09-06T09:33:43.046+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000519414 ns, Reaching safepoint: 132087 ns, At safepoint: 4045 ns, Total: 136132 ns
+[2022-09-06T09:33:44.046+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000140018 ns, Reaching safepoint: 119688 ns, At safepoint: 3528 ns, Total: 123216 ns
+[2022-09-06T09:33:46.840+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2793516676 ns, Reaching safepoint: 106696 ns, At safepoint: 24704 ns, Total: 131400 ns
+[2022-09-06T09:33:47.845+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1005249430 ns, Reaching safepoint: 405094 ns, At safepoint: 77012 ns, Total: 482106 ns
+[2022-09-06T09:33:48.846+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000435522 ns, Reaching safepoint: 539402 ns, At safepoint: 30996 ns, Total: 570398 ns
+[2022-09-06T09:33:49.847+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000371845 ns, Reaching safepoint: 329103 ns, At safepoint: 9879 ns, Total: 338982 ns
+[2022-09-06T09:33:52.848+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 3000403990 ns, Reaching safepoint: 161960 ns, At safepoint: 8590 ns, Total: 170550 ns
+[2022-09-06T09:33:53.848+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000136810 ns, Reaching safepoint: 155503 ns, At safepoint: 4355 ns, Total: 159858 ns
+[2022-09-06T09:33:54.848+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000227414 ns, Reaching safepoint: 260155 ns, At safepoint: 9788 ns, Total: 269943 ns
+[2022-09-06T09:33:55.849+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000217022 ns, Reaching safepoint: 265054 ns, At safepoint: 14815 ns, Total: 279869 ns
+[2022-09-06T09:33:56.850+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000306915 ns, Reaching safepoint: 348025 ns, At safepoint: 9531 ns, Total: 357556 ns
+[2022-09-06T09:33:57.850+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000259214 ns, Reaching safepoint: 311439 ns, At safepoint: 8836 ns, Total: 320275 ns
+[2022-09-06T09:33:58.851+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000157449 ns, Reaching safepoint: 144473 ns, At safepoint: 4244 ns, Total: 148717 ns
+[2022-09-06T09:33:59.851+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000327889 ns, Reaching safepoint: 343861 ns, At safepoint: 11695 ns, Total: 355556 ns
+[2022-09-06T09:34:00.860+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000368281 ns, Reaching safepoint: 266964 ns, At safepoint: 9902 ns, Total: 276866 ns
+[2022-09-06T09:34:01.861+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000192727 ns, Reaching safepoint: 340292 ns, At safepoint: 11291 ns, Total: 351583 ns
+[2022-09-06T09:34:02.861+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000307902 ns, Reaching safepoint: 288922 ns, At safepoint: 11480 ns, Total: 300402 ns
+[2022-09-06T09:34:03.862+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000314004 ns, Reaching safepoint: 361503 ns, At safepoint: 10884 ns, Total: 372387 ns
+[2022-09-06T09:34:04.862+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000189567 ns, Reaching safepoint: 319627 ns, At safepoint: 8843 ns, Total: 328470 ns
+[2022-09-06T09:34:05.863+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000301842 ns, Reaching safepoint: 493770 ns, At safepoint: 28659 ns, Total: 522429 ns
+[2022-09-06T09:34:07.865+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000622622 ns, Reaching safepoint: 649765 ns, At safepoint: 40761 ns, Total: 690526 ns
+[2022-09-06T09:34:10.866+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 3000878910 ns, Reaching safepoint: 354000 ns, At safepoint: 9835 ns, Total: 363835 ns
+[2022-09-06T09:34:11.867+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000431187 ns, Reaching safepoint: 454152 ns, At safepoint: 26023 ns, Total: 480175 ns
+[2022-09-06T09:34:12.867+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000443274 ns, Reaching safepoint: 322439 ns, At safepoint: 9748 ns, Total: 332187 ns
+[2022-09-06T09:34:13.868+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000234752 ns, Reaching safepoint: 225898 ns, At safepoint: 7525 ns, Total: 233423 ns
+[2022-09-06T09:34:16.869+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 3000981722 ns, Reaching safepoint: 541864 ns, At safepoint: 27370 ns, Total: 569234 ns
+[2022-09-06T09:34:17.870+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000149960 ns, Reaching safepoint: 136708 ns, At safepoint: 5427 ns, Total: 142135 ns
+[2022-09-06T09:34:19.870+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000246403 ns, Reaching safepoint: 143954 ns, At safepoint: 3869 ns, Total: 147823 ns
+[2022-09-06T09:34:20.871+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000316825 ns, Reaching safepoint: 390119 ns, At safepoint: 11020 ns, Total: 401139 ns
+[2022-09-06T09:34:22.872+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000753817 ns, Reaching safepoint: 397432 ns, At safepoint: 12985 ns, Total: 410417 ns
+[2022-09-06T09:34:23.873+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000283991 ns, Reaching safepoint: 399011 ns, At safepoint: 10685 ns, Total: 409696 ns
+[2022-09-06T09:34:24.873+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000364551 ns, Reaching safepoint: 343478 ns, At safepoint: 9151 ns, Total: 352629 ns
+[2022-09-06T09:34:25.874+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000333753 ns, Reaching safepoint: 356639 ns, At safepoint: 12377 ns, Total: 369016 ns
+[2022-09-06T09:34:26.875+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000250464 ns, Reaching safepoint: 167314 ns, At safepoint: 5009 ns, Total: 172323 ns
+[2022-09-06T09:34:27.875+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000409822 ns, Reaching safepoint: 257740 ns, At safepoint: 7005 ns, Total: 264745 ns
+[2022-09-06T09:34:28.876+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000254637 ns, Reaching safepoint: 173353 ns, At safepoint: 18335 ns, Total: 191688 ns
+[2022-09-06T09:34:29.876+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000233740 ns, Reaching safepoint: 158376 ns, At safepoint: 7631 ns, Total: 166007 ns
+[2022-09-06T09:34:30.879+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000239971 ns, Reaching safepoint: 146056 ns, At safepoint: 8430 ns, Total: 154486 ns
+[2022-09-06T09:34:31.880+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000491438 ns, Reaching safepoint: 353781 ns, At safepoint: 9919 ns, Total: 363700 ns
+[2022-09-06T09:34:33.881+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000795034 ns, Reaching safepoint: 325455 ns, At safepoint: 16826 ns, Total: 342281 ns
+[2022-09-06T09:34:34.881+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000174696 ns, Reaching safepoint: 240450 ns, At safepoint: 8082 ns, Total: 248532 ns
+[2022-09-06T09:34:35.882+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000355755 ns, Reaching safepoint: 183822 ns, At safepoint: 17747 ns, Total: 201569 ns
+[2022-09-06T09:34:37.883+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000404542 ns, Reaching safepoint: 138902 ns, At safepoint: 5947 ns, Total: 144849 ns
+[2022-09-06T09:34:40.883+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 3000558766 ns, Reaching safepoint: 260345 ns, At safepoint: 11789 ns, Total: 272134 ns
+[2022-09-06T09:34:42.884+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000461695 ns, Reaching safepoint: 159193 ns, At safepoint: 6379 ns, Total: 165572 ns
+[2022-09-06T09:34:43.885+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000505544 ns, Reaching safepoint: 346434 ns, At safepoint: 9050 ns, Total: 355484 ns
+[2022-09-06T09:34:46.886+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 3000956361 ns, Reaching safepoint: 219416 ns, At safepoint: 4592 ns, Total: 224008 ns
+[2022-09-06T09:34:47.886+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000177994 ns, Reaching safepoint: 158002 ns, At safepoint: 2887 ns, Total: 160889 ns
+[2022-09-06T09:34:49.887+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000252988 ns, Reaching safepoint: 153294 ns, At safepoint: 3876 ns, Total: 157170 ns
+[2022-09-06T09:34:50.887+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000297939 ns, Reaching safepoint: 145567 ns, At safepoint: 3087 ns, Total: 148654 ns
+[2022-09-06T09:34:51.888+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000465814 ns, Reaching safepoint: 194488 ns, At safepoint: 3650 ns, Total: 198138 ns
+[2022-09-06T09:34:52.888+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000207876 ns, Reaching safepoint: 188979 ns, At safepoint: 3248 ns, Total: 192227 ns
+[2022-09-06T09:34:53.889+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000189267 ns, Reaching safepoint: 386114 ns, At safepoint: 23536 ns, Total: 409650 ns
+[2022-09-06T09:34:54.889+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000257157 ns, Reaching safepoint: 225122 ns, At safepoint: 6226 ns, Total: 231348 ns
+[2022-09-06T09:34:55.890+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000579204 ns, Reaching safepoint: 408211 ns, At safepoint: 11024 ns, Total: 419235 ns
+[2022-09-06T09:34:56.891+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000267966 ns, Reaching safepoint: 318697 ns, At safepoint: 53539 ns, Total: 372236 ns
+[2022-09-06T09:34:57.891+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000231596 ns, Reaching safepoint: 256113 ns, At safepoint: 6775 ns, Total: 262888 ns
+[2022-09-06T09:34:58.892+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000376096 ns, Reaching safepoint: 324589 ns, At safepoint: 10327 ns, Total: 334916 ns
+[2022-09-06T09:34:59.893+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000408525 ns, Reaching safepoint: 176620 ns, At safepoint: 4464 ns, Total: 181084 ns
+[2022-09-06T09:35:00.893+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000345898 ns, Reaching safepoint: 165713 ns, At safepoint: 5230 ns, Total: 170943 ns
+[2022-09-06T09:35:01.894+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000173571 ns, Reaching safepoint: 321811 ns, At safepoint: 5868 ns, Total: 327679 ns
+[2022-09-06T09:35:02.868+0000][68][gc,start    ] GC(12) Pause Young (Normal) (G1 Evacuation Pause)
+[2022-09-06T09:35:02.868+0000][68][gc,task     ] GC(12) Using 8 workers of 8 for evacuation
+[2022-09-06T09:35:02.868+0000][68][gc,age      ] GC(12) Desired survivor size 79691776 bytes, new threshold 15 (max threshold 15)
+[2022-09-06T09:35:02.895+0000][68][gc,phases   ] GC(12)   Pre Evacuate Collection Set: 0.3ms
+[2022-09-06T09:35:02.895+0000][68][gc,phases   ] GC(12)   Merge Heap Roots: 0.1ms
+[2022-09-06T09:35:02.895+0000][68][gc,phases   ] GC(12)   Evacuate Collection Set: 21.7ms
+[2022-09-06T09:35:02.895+0000][68][gc,phases   ] GC(12)   Post Evacuate Collection Set: 5.0ms
+[2022-09-06T09:35:02.895+0000][68][gc,phases   ] GC(12)   Other: 0.2ms
+[2022-09-06T09:35:02.895+0000][68][gc,age      ] GC(12) Age table with threshold 15 (max threshold 15)
+[2022-09-06T09:35:02.895+0000][68][gc,age      ] GC(12) - age   1:   44175296 bytes,   44175296 total
+[2022-09-06T09:35:02.895+0000][68][gc,age      ] GC(12) - age   2:    1846384 bytes,   46021680 total
+[2022-09-06T09:35:02.895+0000][68][gc,age      ] GC(12) - age   3:   14452200 bytes,   60473880 total
+[2022-09-06T09:35:02.895+0000][68][gc,heap     ] GC(12) Eden regions: 292->0(245)
+[2022-09-06T09:35:02.895+0000][68][gc,heap     ] GC(12) Survivor regions: 6->16(38)
+[2022-09-06T09:35:02.895+0000][68][gc,heap     ] GC(12) Old regions: 13->13
+[2022-09-06T09:35:02.895+0000][68][gc,heap     ] GC(12) Archive regions: 2->2
+[2022-09-06T09:35:02.895+0000][68][gc,heap     ] GC(12) Humongous regions: 2->2
+[2022-09-06T09:35:02.895+0000][68][gc,metaspace] GC(12) Metaspace: 126730K(130112K)->126730K(130112K) NonClass: 109870K(111616K)->109870K(111616K) Class: 16860K(18496K)->16860K(18496K)
+[2022-09-06T09:35:02.895+0000][68][gc          ] GC(12) Pause Young (Normal) (G1 Evacuation Pause) 1252M->127M(6260M) 27.626ms
+[2022-09-06T09:35:02.896+0000][68][gc,cpu      ] GC(12) User=0.18s Sys=0.00s Real=0.03s
+[2022-09-06T09:35:02.896+0000][68][safepoint   ] Safepoint "G1CollectForAllocation", Time since last: 973789354 ns, Reaching safepoint: 150969 ns, At safepoint: 27767149 ns, Total: 27918118 ns
+[2022-09-06T09:35:04.896+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000478703 ns, Reaching safepoint: 194636 ns, At safepoint: 5461 ns, Total: 200097 ns
+[2022-09-06T09:35:05.897+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000483986 ns, Reaching safepoint: 249726 ns, At safepoint: 7146 ns, Total: 256872 ns
+[2022-09-06T09:35:07.898+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000492236 ns, Reaching safepoint: 149389 ns, At safepoint: 3737 ns, Total: 153126 ns
+[2022-09-06T09:35:10.898+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 3000567571 ns, Reaching safepoint: 233292 ns, At safepoint: 3915 ns, Total: 237207 ns
+[2022-09-06T09:35:12.899+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000603014 ns, Reaching safepoint: 160023 ns, At safepoint: 3873 ns, Total: 163896 ns
+[2022-09-06T09:35:13.900+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000472087 ns, Reaching safepoint: 164482 ns, At safepoint: 60645 ns, Total: 225127 ns
+[2022-09-06T09:35:16.901+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 3000689380 ns, Reaching safepoint: 173507 ns, At safepoint: 9863 ns, Total: 183370 ns
+[2022-09-06T09:35:17.901+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000165383 ns, Reaching safepoint: 153127 ns, At safepoint: 3419 ns, Total: 156546 ns
+[2022-09-06T09:35:20.902+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 3000572450 ns, Reaching safepoint: 155843 ns, At safepoint: 7105 ns, Total: 162948 ns
+[2022-09-06T09:35:22.903+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000559986 ns, Reaching safepoint: 150386 ns, At safepoint: 3735 ns, Total: 154121 ns
+[2022-09-06T09:35:23.903+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000407890 ns, Reaching safepoint: 225175 ns, At safepoint: 7736 ns, Total: 232911 ns
+[2022-09-06T09:35:24.904+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000376752 ns, Reaching safepoint: 149871 ns, At safepoint: 6837 ns, Total: 156708 ns
+[2022-09-06T09:35:25.904+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000432249 ns, Reaching safepoint: 146095 ns, At safepoint: 5676 ns, Total: 151771 ns
+[2022-09-06T09:35:26.905+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000461681 ns, Reaching safepoint: 177339 ns, At safepoint: 4901 ns, Total: 182240 ns
+[2022-09-06T09:35:28.906+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000778865 ns, Reaching safepoint: 272669 ns, At safepoint: 7833 ns, Total: 280502 ns
+[2022-09-06T09:35:29.907+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000372667 ns, Reaching safepoint: 197144 ns, At safepoint: 5359 ns, Total: 202503 ns
+[2022-09-06T09:35:31.907+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000413103 ns, Reaching safepoint: 156954 ns, At safepoint: 7045 ns, Total: 163999 ns
+[2022-09-06T09:35:32.908+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000254236 ns, Reaching safepoint: 229315 ns, At safepoint: 8793 ns, Total: 238108 ns
+[2022-09-06T09:35:34.909+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000840516 ns, Reaching safepoint: 233308 ns, At safepoint: 6399 ns, Total: 239707 ns
+[2022-09-06T09:35:35.910+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000581255 ns, Reaching safepoint: 371724 ns, At safepoint: 10115 ns, Total: 381839 ns
+[2022-09-06T09:35:37.911+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000720477 ns, Reaching safepoint: 800040 ns, At safepoint: 92549 ns, Total: 892589 ns
+[2022-09-06T09:35:38.912+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000476264 ns, Reaching safepoint: 229395 ns, At safepoint: 6261 ns, Total: 235656 ns
+[2022-09-06T09:35:40.913+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000789544 ns, Reaching safepoint: 412841 ns, At safepoint: 7304 ns, Total: 420145 ns
+[2022-09-06T09:35:41.914+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000555885 ns, Reaching safepoint: 204445 ns, At safepoint: 4800 ns, Total: 209245 ns
+[2022-09-06T09:35:43.915+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000851172 ns, Reaching safepoint: 323706 ns, At safepoint: 13191 ns, Total: 336897 ns
+[2022-09-06T09:35:45.917+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000905416 ns, Reaching safepoint: 441155 ns, At safepoint: 69075 ns, Total: 510230 ns
+[2022-09-06T09:35:47.917+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000534787 ns, Reaching safepoint: 186291 ns, At safepoint: 6426 ns, Total: 192717 ns
+[2022-09-06T09:35:49.919+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000785447 ns, Reaching safepoint: 379358 ns, At safepoint: 11160 ns, Total: 390518 ns
+[2022-09-06T09:35:52.920+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 3001138047 ns, Reaching safepoint: 412071 ns, At safepoint: 252408 ns, Total: 664479 ns
+[2022-09-06T09:35:53.921+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000390650 ns, Reaching safepoint: 363804 ns, At safepoint: 10574 ns, Total: 374378 ns
+[2022-09-06T09:35:55.922+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000939033 ns, Reaching safepoint: 282479 ns, At safepoint: 7743 ns, Total: 290222 ns
+[2022-09-06T09:35:56.923+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000431673 ns, Reaching safepoint: 366055 ns, At safepoint: 10858 ns, Total: 376913 ns
+[2022-09-06T09:35:58.925+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000844857 ns, Reaching safepoint: 726187 ns, At safepoint: 26732 ns, Total: 752919 ns
+[2022-09-06T09:35:59.925+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000416042 ns, Reaching safepoint: 182068 ns, At safepoint: 5321 ns, Total: 187389 ns
+[2022-09-06T09:36:04.927+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 5000909067 ns, Reaching safepoint: 243961 ns, At safepoint: 56806 ns, Total: 300767 ns
+[2022-09-06T09:36:07.928+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 3000686262 ns, Reaching safepoint: 197283 ns, At safepoint: 6130 ns, Total: 203413 ns
+[2022-09-06T09:36:10.928+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 3000594882 ns, Reaching safepoint: 192000 ns, At safepoint: 8324 ns, Total: 200324 ns
+[2022-09-06T09:36:13.929+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 3000601961 ns, Reaching safepoint: 297304 ns, At safepoint: 6146 ns, Total: 303450 ns
+[2022-09-06T09:36:16.930+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 3000463394 ns, Reaching safepoint: 212047 ns, At safepoint: 6603 ns, Total: 218650 ns
+[2022-09-06T09:36:17.930+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000198410 ns, Reaching safepoint: 190693 ns, At safepoint: 4471 ns, Total: 195164 ns
+[2022-09-06T09:36:19.931+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000502066 ns, Reaching safepoint: 160214 ns, At safepoint: 4268 ns, Total: 164482 ns
+[2022-09-06T09:36:22.932+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 3000518697 ns, Reaching safepoint: 200906 ns, At safepoint: 50806 ns, Total: 251712 ns
+[2022-09-06T09:36:23.932+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000262298 ns, Reaching safepoint: 203448 ns, At safepoint: 6976 ns, Total: 210424 ns
+[2022-09-06T09:36:24.933+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000185047 ns, Reaching safepoint: 221720 ns, At safepoint: 6614 ns, Total: 228334 ns
+[2022-09-06T09:36:26.323+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1389576586 ns, Reaching safepoint: 297051 ns, At safepoint: 90698 ns, Total: 387749 ns
+[2022-09-06T09:36:28.323+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000395625 ns, Reaching safepoint: 234357 ns, At safepoint: 64850 ns, Total: 299207 ns
+[2022-09-06T09:36:29.324+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000136089 ns, Reaching safepoint: 142737 ns, At safepoint: 4148 ns, Total: 146885 ns
+[2022-09-06T09:36:30.324+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000229382 ns, Reaching safepoint: 141841 ns, At safepoint: 19279 ns, Total: 161120 ns
+[2022-09-06T09:36:31.319+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000147781 ns, Reaching safepoint: 189221 ns, At safepoint: 21221 ns, Total: 210442 ns
+[2022-09-06T09:36:32.320+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000143002 ns, Reaching safepoint: 169790 ns, At safepoint: 19613 ns, Total: 189403 ns
+[2022-09-06T09:36:33.320+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000342639 ns, Reaching safepoint: 144129 ns, At safepoint: 15431 ns, Total: 159560 ns
+[2022-09-06T09:36:34.321+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000270088 ns, Reaching safepoint: 353160 ns, At safepoint: 21210 ns, Total: 374370 ns
+[2022-09-06T09:36:36.321+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000492610 ns, Reaching safepoint: 183085 ns, At safepoint: 7069 ns, Total: 190154 ns
+[2022-09-06T09:36:37.322+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000247050 ns, Reaching safepoint: 493791 ns, At safepoint: 51381 ns, Total: 545172 ns
+[2022-09-06T09:36:38.323+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000164631 ns, Reaching safepoint: 210340 ns, At safepoint: 6747 ns, Total: 217087 ns
+[2022-09-06T09:36:40.323+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000414719 ns, Reaching safepoint: 303754 ns, At safepoint: 34248 ns, Total: 338002 ns
+[2022-09-06T09:36:41.324+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000283515 ns, Reaching safepoint: 176340 ns, At safepoint: 8817 ns, Total: 185157 ns
+[2022-09-06T09:36:43.325+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000590203 ns, Reaching safepoint: 187171 ns, At safepoint: 35522 ns, Total: 222693 ns
+[2022-09-06T09:36:44.325+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000134847 ns, Reaching safepoint: 180410 ns, At safepoint: 3489 ns, Total: 183899 ns
+[2022-09-06T09:36:46.326+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000832697 ns, Reaching safepoint: 260623 ns, At safepoint: 9587 ns, Total: 270210 ns
+[2022-09-06T09:36:47.326+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000163425 ns, Reaching safepoint: 184554 ns, At safepoint: 5897 ns, Total: 190451 ns
+[2022-09-06T09:36:49.327+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000291431 ns, Reaching safepoint: 140684 ns, At safepoint: 4540 ns, Total: 145224 ns
+[2022-09-06T09:36:50.327+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000298404 ns, Reaching safepoint: 248801 ns, At safepoint: 20911 ns, Total: 269712 ns
+[2022-09-06T09:36:52.328+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000343713 ns, Reaching safepoint: 197786 ns, At safepoint: 16764 ns, Total: 214550 ns
+[2022-09-06T09:36:53.329+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000423654 ns, Reaching safepoint: 439006 ns, At safepoint: 9308 ns, Total: 448314 ns
+[2022-09-06T09:36:54.329+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000336201 ns, Reaching safepoint: 337242 ns, At safepoint: 9888 ns, Total: 347130 ns
+[2022-09-06T09:36:55.330+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000229825 ns, Reaching safepoint: 272333 ns, At safepoint: 32127 ns, Total: 304460 ns
+[2022-09-06T09:36:56.330+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000139664 ns, Reaching safepoint: 161124 ns, At safepoint: 4362 ns, Total: 165486 ns
+[2022-09-06T09:36:57.331+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000240873 ns, Reaching safepoint: 212987 ns, At safepoint: 59274 ns, Total: 272261 ns
+[2022-09-06T09:36:58.331+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000279430 ns, Reaching safepoint: 154751 ns, At safepoint: 3633 ns, Total: 158384 ns
+[2022-09-06T09:36:59.332+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000172956 ns, Reaching safepoint: 174940 ns, At safepoint: 8294 ns, Total: 183234 ns
+[2022-09-06T09:37:00.332+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000283596 ns, Reaching safepoint: 155210 ns, At safepoint: 7621 ns, Total: 162831 ns
+[2022-09-06T09:37:01.341+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000235008 ns, Reaching safepoint: 143795 ns, At safepoint: 5349 ns, Total: 149144 ns
+[2022-09-06T09:37:02.342+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000295893 ns, Reaching safepoint: 327718 ns, At safepoint: 29502 ns, Total: 357220 ns
+[2022-09-06T09:37:03.342+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000498978 ns, Reaching safepoint: 368991 ns, At safepoint: 9266 ns, Total: 378257 ns
+[2022-09-06T09:37:04.343+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000309525 ns, Reaching safepoint: 252193 ns, At safepoint: 2789 ns, Total: 254982 ns
+[2022-09-06T09:37:05.344+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000236879 ns, Reaching safepoint: 221608 ns, At safepoint: 34866 ns, Total: 256474 ns
+[2022-09-06T09:37:06.344+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000358411 ns, Reaching safepoint: 161341 ns, At safepoint: 6037 ns, Total: 167378 ns
+[2022-09-06T09:37:07.344+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000145937 ns, Reaching safepoint: 183835 ns, At safepoint: 29835 ns, Total: 213670 ns
+[2022-09-06T09:37:08.345+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000239145 ns, Reaching safepoint: 171485 ns, At safepoint: 55100 ns, Total: 226585 ns
+[2022-09-06T09:37:09.346+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000405135 ns, Reaching safepoint: 185366 ns, At safepoint: 9613 ns, Total: 194979 ns
+[2022-09-06T09:37:13.347+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 4001044231 ns, Reaching safepoint: 158193 ns, At safepoint: 3793 ns, Total: 161986 ns
+[2022-09-06T09:37:14.347+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000327217 ns, Reaching safepoint: 160534 ns, At safepoint: 6813 ns, Total: 167347 ns
+[2022-09-06T09:37:16.348+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000491509 ns, Reaching safepoint: 165302 ns, At safepoint: 34450 ns, Total: 199752 ns
+[2022-09-06T09:37:17.348+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000274371 ns, Reaching safepoint: 146970 ns, At safepoint: 4745 ns, Total: 151715 ns
+[2022-09-06T09:37:19.349+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000454860 ns, Reaching safepoint: 182019 ns, At safepoint: 9122 ns, Total: 191141 ns
+[2022-09-06T09:37:20.349+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000112396 ns, Reaching safepoint: 140614 ns, At safepoint: 3141 ns, Total: 143755 ns
+[2022-09-06T09:37:22.350+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000241086 ns, Reaching safepoint: 382352 ns, At safepoint: 13248 ns, Total: 395600 ns
+[2022-09-06T09:37:23.350+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000231503 ns, Reaching safepoint: 184496 ns, At safepoint: 8327 ns, Total: 192823 ns
+[2022-09-06T09:37:24.351+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000349206 ns, Reaching safepoint: 167252 ns, At safepoint: 8112 ns, Total: 175364 ns
+[2022-09-06T09:37:25.351+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000267224 ns, Reaching safepoint: 164395 ns, At safepoint: 5272 ns, Total: 169667 ns
+[2022-09-06T09:37:26.352+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000239159 ns, Reaching safepoint: 454476 ns, At safepoint: 48681 ns, Total: 503157 ns
+[2022-09-06T09:37:27.352+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000185112 ns, Reaching safepoint: 192840 ns, At safepoint: 5091 ns, Total: 197931 ns
+[2022-09-06T09:37:28.353+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000230496 ns, Reaching safepoint: 154509 ns, At safepoint: 30086 ns, Total: 184595 ns
+[2022-09-06T09:37:29.353+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000185303 ns, Reaching safepoint: 126595 ns, At safepoint: 4550 ns, Total: 131145 ns
+[2022-09-06T09:37:30.354+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000217503 ns, Reaching safepoint: 233612 ns, At safepoint: 5517 ns, Total: 239129 ns
+[2022-09-06T09:37:31.351+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000330236 ns, Reaching safepoint: 129230 ns, At safepoint: 4078 ns, Total: 133308 ns
+[2022-09-06T09:37:32.351+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000177177 ns, Reaching safepoint: 448878 ns, At safepoint: 4258 ns, Total: 453136 ns
+[2022-09-06T09:37:33.352+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000347020 ns, Reaching safepoint: 191273 ns, At safepoint: 9578 ns, Total: 200851 ns
+[2022-09-06T09:37:34.352+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000333239 ns, Reaching safepoint: 390623 ns, At safepoint: 21431 ns, Total: 412054 ns
+[2022-09-06T09:37:36.353+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000378169 ns, Reaching safepoint: 192528 ns, At safepoint: 6883 ns, Total: 199411 ns
+[2022-09-06T09:37:37.354+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000296098 ns, Reaching safepoint: 140179 ns, At safepoint: 19917 ns, Total: 160096 ns
+[2022-09-06T09:37:37.826+0000][68][safepoint   ] Safepoint "ICBufferFull", Time since last: 472376127 ns, Reaching safepoint: 237300 ns, At safepoint: 32897 ns, Total: 270197 ns
+[2022-09-06T09:37:38.827+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000363547 ns, Reaching safepoint: 238749 ns, At safepoint: 53596 ns, Total: 292345 ns
+[2022-09-06T09:37:39.828+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000643956 ns, Reaching safepoint: 369773 ns, At safepoint: 8445 ns, Total: 378218 ns
+[2022-09-06T09:37:40.829+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000418612 ns, Reaching safepoint: 193047 ns, At safepoint: 120840 ns, Total: 313887 ns
+[2022-09-06T09:37:41.829+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000179187 ns, Reaching safepoint: 150067 ns, At safepoint: 3861 ns, Total: 153928 ns
+[2022-09-06T09:37:42.829+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000209095 ns, Reaching safepoint: 232572 ns, At safepoint: 7549 ns, Total: 240121 ns
+[2022-09-06T09:37:43.830+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000767210 ns, Reaching safepoint: 198929 ns, At safepoint: 3842 ns, Total: 202771 ns
+[2022-09-06T09:37:44.831+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000157810 ns, Reaching safepoint: 186227 ns, At safepoint: 5797 ns, Total: 192024 ns
+[2022-09-06T09:37:45.588+0000][68][gc,start    ] GC(13) Pause Young (Normal) (G1 Evacuation Pause)
+[2022-09-06T09:37:45.588+0000][68][gc,task     ] GC(13) Using 8 workers of 8 for evacuation
+[2022-09-06T09:37:45.588+0000][68][gc,age      ] GC(13) Desired survivor size 69206016 bytes, new threshold 15 (max threshold 15)
+[2022-09-06T09:37:45.616+0000][68][gc,phases   ] GC(13)   Pre Evacuate Collection Set: 0.3ms
+[2022-09-06T09:37:45.616+0000][68][gc,phases   ] GC(13)   Merge Heap Roots: 0.3ms
+[2022-09-06T09:37:45.616+0000][68][gc,phases   ] GC(13)   Evacuate Collection Set: 22.6ms
+[2022-09-06T09:37:45.616+0000][68][gc,phases   ] GC(13)   Post Evacuate Collection Set: 3.9ms
+[2022-09-06T09:37:45.616+0000][68][gc,phases   ] GC(13)   Other: 0.1ms
+[2022-09-06T09:37:45.616+0000][68][gc,age      ] GC(13) Age table with threshold 15 (max threshold 15)
+[2022-09-06T09:37:45.616+0000][68][gc,age      ] GC(13) - age   1:    3274232 bytes,    3274232 total
+[2022-09-06T09:37:45.616+0000][68][gc,age      ] GC(13) - age   2:   41620808 bytes,   44895040 total
+[2022-09-06T09:37:45.616+0000][68][gc,age      ] GC(13) - age   3:    1846384 bytes,   46741424 total
+[2022-09-06T09:37:45.616+0000][68][gc,age      ] GC(13) - age   4:   14451928 bytes,   61193352 total
+[2022-09-06T09:37:45.616+0000][68][gc,heap     ] GC(13) Eden regions: 245->0(359)
+[2022-09-06T09:37:45.616+0000][68][gc,heap     ] GC(13) Survivor regions: 16->17(33)
+[2022-09-06T09:37:45.616+0000][68][gc,heap     ] GC(13) Old regions: 13->13
+[2022-09-06T09:37:45.616+0000][68][gc,heap     ] GC(13) Archive regions: 2->2
+[2022-09-06T09:37:45.616+0000][68][gc,heap     ] GC(13) Humongous regions: 2->2
+[2022-09-06T09:37:45.616+0000][68][gc,metaspace] GC(13) Metaspace: 128435K(131840K)->128435K(131840K) NonClass: 111453K(113216K)->111453K(113216K) Class: 16982K(18624K)->16982K(18624K)
+[2022-09-06T09:37:45.616+0000][68][gc          ] GC(13) Pause Young (Normal) (G1 Evacuation Pause) 1107M->129M(6260M) 27.558ms
+[2022-09-06T09:37:45.616+0000][68][gc,cpu      ] GC(13) User=0.18s Sys=0.00s Real=0.03s
+[2022-09-06T09:37:45.616+0000][68][safepoint   ] Safepoint "G1CollectForAllocation", Time since last: 757275490 ns, Reaching safepoint: 233239 ns, At safepoint: 27715651 ns, Total: 27948890 ns
+[2022-09-06T09:37:46.821+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000230479 ns, Reaching safepoint: 205197008 ns, At safepoint: 133951 ns, Total: 205330959 ns
+[2022-09-06T09:37:47.822+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000429989 ns, Reaching safepoint: 426136 ns, At safepoint: 19279 ns, Total: 445415 ns
+[2022-09-06T09:37:48.823+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000224014 ns, Reaching safepoint: 313850 ns, At safepoint: 9168 ns, Total: 323018 ns
+[2022-09-06T09:37:52.824+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 4001177327 ns, Reaching safepoint: 198249 ns, At safepoint: 5076 ns, Total: 203325 ns
+[2022-09-06T09:37:53.825+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000314823 ns, Reaching safepoint: 563346 ns, At safepoint: 27734 ns, Total: 591080 ns
+[2022-09-06T09:37:58.827+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 5001376157 ns, Reaching safepoint: 371767 ns, At safepoint: 23938 ns, Total: 395705 ns
+[2022-09-06T09:37:59.828+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000517281 ns, Reaching safepoint: 538118 ns, At safepoint: 77481 ns, Total: 615599 ns
+[2022-09-06T09:38:01.830+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000944228 ns, Reaching safepoint: 355660 ns, At safepoint: 14345 ns, Total: 370005 ns
+[2022-09-06T09:38:04.831+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 3000666249 ns, Reaching safepoint: 135032 ns, At safepoint: 6767 ns, Total: 141799 ns
+[2022-09-06T09:38:06.280+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1449246077 ns, Reaching safepoint: 133708 ns, At safepoint: 17851 ns, Total: 151559 ns
+[2022-09-06T09:38:07.281+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000222035 ns, Reaching safepoint: 159220 ns, At safepoint: 13171 ns, Total: 172391 ns
+[2022-09-06T09:38:11.282+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 4000780532 ns, Reaching safepoint: 259577 ns, At safepoint: 88214 ns, Total: 347791 ns
+[2022-09-06T09:38:17.283+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 6001312001 ns, Reaching safepoint: 230447 ns, At safepoint: 6556 ns, Total: 237003 ns
+[2022-09-06T09:38:20.316+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 3031925748 ns, Reaching safepoint: 242243 ns, At safepoint: 8717 ns, Total: 250960 ns
+[2022-09-06T09:38:23.217+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2901456395 ns, Reaching safepoint: 282412 ns, At safepoint: 6261 ns, Total: 288673 ns
+[2022-09-06T09:38:24.218+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000347683 ns, Reaching safepoint: 578212 ns, At safepoint: 19678 ns, Total: 597890 ns
+[2022-09-06T09:38:26.219+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000287194 ns, Reaching safepoint: 141494 ns, At safepoint: 3609 ns, Total: 145103 ns
+[2022-09-06T09:38:27.219+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000366942 ns, Reaching safepoint: 255187 ns, At safepoint: 4166 ns, Total: 259353 ns
+[2022-09-06T09:38:29.220+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000548450 ns, Reaching safepoint: 156753 ns, At safepoint: 7017 ns, Total: 163770 ns
+[2022-09-06T09:38:32.221+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 3000577640 ns, Reaching safepoint: 305583 ns, At safepoint: 24195 ns, Total: 329778 ns
+[2022-09-06T09:38:38.222+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 6001427186 ns, Reaching safepoint: 172227 ns, At safepoint: 7234 ns, Total: 179461 ns
+[2022-09-06T09:38:41.223+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 3000600346 ns, Reaching safepoint: 198365 ns, At safepoint: 7239 ns, Total: 205604 ns
+[2022-09-06T09:38:42.223+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000212697 ns, Reaching safepoint: 152683 ns, At safepoint: 8346 ns, Total: 161029 ns
+[2022-09-06T09:38:44.224+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000454843 ns, Reaching safepoint: 196408 ns, At safepoint: 6737 ns, Total: 203145 ns
+[2022-09-06T09:38:47.225+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 3000714379 ns, Reaching safepoint: 357373 ns, At safepoint: 11532 ns, Total: 368905 ns
+[2022-09-06T09:38:49.226+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000632952 ns, Reaching safepoint: 289060 ns, At safepoint: 11152 ns, Total: 300212 ns
+[2022-09-06T09:38:50.227+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000549656 ns, Reaching safepoint: 165904 ns, At safepoint: 4041 ns, Total: 169945 ns
+[2022-09-06T09:38:53.229+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 3001231545 ns, Reaching safepoint: 685110 ns, At safepoint: 139537 ns, Total: 824647 ns
+[2022-09-06T09:38:54.230+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000268125 ns, Reaching safepoint: 402749 ns, At safepoint: 36079 ns, Total: 438828 ns
+[2022-09-06T09:38:56.230+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000340262 ns, Reaching safepoint: 153231 ns, At safepoint: 5629 ns, Total: 158860 ns
+[2022-09-06T09:39:02.232+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 6001317215 ns, Reaching safepoint: 322643 ns, At safepoint: 10373 ns, Total: 333016 ns
+[2022-09-06T09:39:05.233+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 3000899396 ns, Reaching safepoint: 390584 ns, At safepoint: 11891 ns, Total: 402475 ns
+[2022-09-06T09:39:08.235+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 3001041564 ns, Reaching safepoint: 366039 ns, At safepoint: 71802 ns, Total: 437841 ns
+[2022-09-06T10:42:26.905+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 3650699150276 ns, Reaching safepoint: 147970490409 ns, At safepoint: 46499 ns, Total: 147970536908 ns
+[2022-09-06T10:42:29.739+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000270129 ns, Reaching safepoint: 1780989862 ns, At safepoint: 19971 ns, Total: 1781009833 ns
+[2022-09-06T10:42:32.067+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2328168117 ns, Reaching safepoint: 157859 ns, At safepoint: 6053 ns, Total: 163912 ns
+[2022-09-06T10:42:33.313+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1244970631 ns, Reaching safepoint: 258515 ns, At safepoint: 38521 ns, Total: 297036 ns
+[2022-09-06T10:42:34.313+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000141479 ns, Reaching safepoint: 171113 ns, At safepoint: 6458 ns, Total: 177571 ns
+[2022-09-06T10:42:35.313+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000209885 ns, Reaching safepoint: 200315 ns, At safepoint: 9020 ns, Total: 209335 ns
+[2022-09-06T10:42:36.314+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000142775 ns, Reaching safepoint: 188098 ns, At safepoint: 19564 ns, Total: 207662 ns
+[2022-09-06T10:42:37.314+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000160300 ns, Reaching safepoint: 123007 ns, At safepoint: 18392 ns, Total: 141399 ns
+[2022-09-06T10:42:38.314+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000167444 ns, Reaching safepoint: 187946 ns, At safepoint: 9809 ns, Total: 197755 ns
+[2022-09-06T10:42:39.315+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000118391 ns, Reaching safepoint: 128463 ns, At safepoint: 3420 ns, Total: 131883 ns
+[2022-09-06T10:42:42.315+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 3000269383 ns, Reaching safepoint: 130798 ns, At safepoint: 3714 ns, Total: 134512 ns
+[2022-09-06T10:42:43.315+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000171137 ns, Reaching safepoint: 126257 ns, At safepoint: 3264 ns, Total: 129521 ns
+[2022-09-06T10:42:45.316+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000324195 ns, Reaching safepoint: 116196 ns, At safepoint: 3335 ns, Total: 119531 ns
+[2022-09-06T10:42:46.316+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000114518 ns, Reaching safepoint: 123642 ns, At safepoint: 3321 ns, Total: 126963 ns
+[2022-09-06T10:42:47.316+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000103576 ns, Reaching safepoint: 131207 ns, At safepoint: 3104 ns, Total: 134311 ns
+[2022-09-06T10:42:48.317+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000136105 ns, Reaching safepoint: 190239 ns, At safepoint: 5067 ns, Total: 195306 ns
+[2022-09-06T10:42:51.317+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 3000363330 ns, Reaching safepoint: 125773 ns, At safepoint: 3250 ns, Total: 129023 ns
+[2022-09-06T10:42:54.318+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 3000308572 ns, Reaching safepoint: 147709 ns, At safepoint: 3594 ns, Total: 151303 ns
+[2022-09-06T10:42:55.318+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000150927 ns, Reaching safepoint: 126347 ns, At safepoint: 3527 ns, Total: 129874 ns
+[2022-09-06T10:42:57.267+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000225535 ns, Reaching safepoint: 122645 ns, At safepoint: 3370 ns, Total: 126015 ns
+[2022-09-06T10:43:00.267+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 3000307380 ns, Reaching safepoint: 121599 ns, At safepoint: 3179 ns, Total: 124778 ns
+[2022-09-06T10:43:02.268+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000607322 ns, Reaching safepoint: 189907 ns, At safepoint: 7124 ns, Total: 197031 ns
+[2022-09-06T10:43:06.269+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 4000742492 ns, Reaching safepoint: 152449 ns, At safepoint: 4342 ns, Total: 156791 ns
+[2022-09-06T10:43:08.269+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000230802 ns, Reaching safepoint: 164338 ns, At safepoint: 5935 ns, Total: 170273 ns
+[2022-09-06T10:43:09.269+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000108471 ns, Reaching safepoint: 123744 ns, At safepoint: 3252 ns, Total: 126996 ns
+[2022-09-06T10:43:10.270+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000132819 ns, Reaching safepoint: 157640 ns, At safepoint: 5922 ns, Total: 163562 ns
+[2022-09-06T10:43:12.270+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000231468 ns, Reaching safepoint: 134878 ns, At safepoint: 3996 ns, Total: 138874 ns
+[2022-09-06T10:43:13.270+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000143771 ns, Reaching safepoint: 139651 ns, At safepoint: 4033 ns, Total: 143684 ns
+[2022-09-06T10:43:17.271+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 4000459446 ns, Reaching safepoint: 127224 ns, At safepoint: 3316 ns, Total: 130540 ns
+[2022-09-06T10:43:18.271+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000126250 ns, Reaching safepoint: 159680 ns, At safepoint: 4450 ns, Total: 164130 ns
+[2022-09-06T10:43:21.272+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 3000354866 ns, Reaching safepoint: 134308 ns, At safepoint: 3313 ns, Total: 137621 ns
+[2022-09-06T10:43:22.272+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000149546 ns, Reaching safepoint: 184054 ns, At safepoint: 15320 ns, Total: 199374 ns
+[2022-09-06T10:43:24.273+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000334540 ns, Reaching safepoint: 140154 ns, At safepoint: 3913 ns, Total: 144067 ns
+[2022-09-06T10:43:27.271+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 3000362161 ns, Reaching safepoint: 136709 ns, At safepoint: 6888 ns, Total: 143597 ns
+[2022-09-06T10:43:30.272+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 3000601681 ns, Reaching safepoint: 227358 ns, At safepoint: 22248 ns, Total: 249606 ns
+[2022-09-06T10:43:31.272+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000246771 ns, Reaching safepoint: 129916 ns, At safepoint: 5953 ns, Total: 135869 ns
+[2022-09-06T10:43:33.272+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000337862 ns, Reaching safepoint: 164530 ns, At safepoint: 34043 ns, Total: 198573 ns
+[2022-09-06T10:43:34.273+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000176312 ns, Reaching safepoint: 136208 ns, At safepoint: 3374 ns, Total: 139582 ns
+[2022-09-06T10:43:36.273+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000420077 ns, Reaching safepoint: 179734 ns, At safepoint: 8066 ns, Total: 187800 ns
+[2022-09-06T10:43:37.274+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000238967 ns, Reaching safepoint: 151624 ns, At safepoint: 6960 ns, Total: 158584 ns
+[2022-09-06T10:43:42.275+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 5000747291 ns, Reaching safepoint: 151546 ns, At safepoint: 6728 ns, Total: 158274 ns
+[2022-09-06T10:43:43.275+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000164067 ns, Reaching safepoint: 141250 ns, At safepoint: 4174 ns, Total: 145424 ns
+[2022-09-06T10:43:45.275+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000292441 ns, Reaching safepoint: 153836 ns, At safepoint: 14565 ns, Total: 168401 ns
+[2022-09-06T10:43:46.276+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000220978 ns, Reaching safepoint: 133341 ns, At safepoint: 4584 ns, Total: 137925 ns
+[2022-09-06T10:43:47.276+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000328484 ns, Reaching safepoint: 187722 ns, At safepoint: 6953 ns, Total: 194675 ns
+[2022-09-06T10:43:49.277+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 2000563286 ns, Reaching safepoint: 147429 ns, At safepoint: 7696 ns, Total: 155125 ns
+[2022-09-06T10:43:53.496+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 4000656823 ns, Reaching safepoint: 217863893 ns, At safepoint: 82072 ns, Total: 217945965 ns
+[2022-09-06T10:43:54.872+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1000154995 ns, Reaching safepoint: 375719893 ns, At safepoint: 156438 ns, Total: 375876331 ns
+[2022-09-06T10:43:56.449+0000][68][safepoint   ] Safepoint "Cleanup", Time since last: 1577317810 ns, Reaching safepoint: 310757 ns, At safepoint: 6121 ns, Total: 316878 ns
+[2022-09-06T10:43:57.425+0000][68][gc,heap,exit] Heap
+[2022-09-06T10:43:57.425+0000][68][gc,heap,exit]  garbage-first heap   total 6410240K, used 932040K [0x0000000678c00000, 0x0000000800000000)
+[2022-09-06T10:43:57.425+0000][68][gc,heap,exit]   region size 4096K, 213 young (872448K), 17 survivors (69632K)
+[2022-09-06T10:43:57.425+0000][68][gc,heap,exit]  Metaspace       used 129985K, committed 133376K, reserved 1179648K
+[2022-09-06T10:43:57.425+0000][68][gc,heap,exit]   class space    used 17148K, committed 18816K, reserved 1048576K
